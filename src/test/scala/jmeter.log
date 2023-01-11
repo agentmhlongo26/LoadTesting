@@ -1,0 +1,1068 @@
+2020-01-17 09:32:19,668 INFO o.a.j.u.JMeterUtils: Setting Locale to en_EN
+2020-01-17 09:32:19,715 INFO o.a.j.JMeter: Loading user properties from: /usr/local/Cellar/jmeter/5.1.1/libexec/bin/user.properties
+2020-01-17 09:32:19,716 INFO o.a.j.JMeter: Loading system properties from: /usr/local/Cellar/jmeter/5.1.1/libexec/bin/system.properties
+2020-01-17 09:32:19,724 INFO o.a.j.JMeter: Copyright (c) 1998-2019 The Apache Software Foundation
+2020-01-17 09:32:19,724 INFO o.a.j.JMeter: Version 5.1.1 r1855137
+2020-01-17 09:32:19,724 INFO o.a.j.JMeter: java.version=1.8.0_172
+2020-01-17 09:32:19,724 INFO o.a.j.JMeter: java.vm.name=Java HotSpot(TM) 64-Bit Server VM
+2020-01-17 09:32:19,724 INFO o.a.j.JMeter: os.name=Mac OS X
+2020-01-17 09:32:19,725 INFO o.a.j.JMeter: os.arch=x86_64
+2020-01-17 09:32:19,725 INFO o.a.j.JMeter: os.version=10.15.2
+2020-01-17 09:32:19,725 INFO o.a.j.JMeter: file.encoding=UTF-8
+2020-01-17 09:32:19,725 INFO o.a.j.JMeter: java.awt.headless=null
+2020-01-17 09:32:19,725 INFO o.a.j.JMeter: Max memory     =1073741824
+2020-01-17 09:32:19,725 INFO o.a.j.JMeter: Available Processors =4
+2020-01-17 09:32:19,734 INFO o.a.j.JMeter: Default Locale=English (EN)
+2020-01-17 09:32:19,734 INFO o.a.j.JMeter: JMeter  Locale=English (EN)
+2020-01-17 09:32:19,734 INFO o.a.j.JMeter: JMeterHome=/usr/local/Cellar/jmeter/5.1.1/libexec
+2020-01-17 09:32:19,734 INFO o.a.j.JMeter: user.dir  =/Users/thabomhlongo/code/gatling-scala-load-tests/src/test/scala
+2020-01-17 09:32:19,734 INFO o.a.j.JMeter: PWD       =/Users/thabomhlongo/code/gatling-scala-load-tests/src/test/scala
+2020-01-17 09:32:19,735 INFO o.a.j.JMeter: IP: 192.168.100.128 Name: Thabos-MacBook-Pro.local FullName: 192.168.100.128
+2020-01-17 09:32:22,859 INFO o.a.j.g.a.LookAndFeelCommand: Installing Darcula LAF
+2020-01-17 09:32:22,892 INFO o.a.j.g.a.LookAndFeelCommand: Using look and feel: com.bulenkov.darcula.DarculaLaf [Darcula]
+2020-01-17 09:32:22,892 INFO o.a.j.JMeter: Setting LAF to: com.bulenkov.darcula.DarculaLaf
+2020-01-17 09:32:23,044 INFO o.a.j.JMeter: Loaded icon properties from org/apache/jmeter/images/icon.properties
+2020-01-17 09:32:25,663 WARN o.j.r.PluginManager: Found JAR conflict: /usr/local/Cellar/jmeter/5.1.1/libexec/lib/asm-7.0.jar and /usr/local/Cellar/jmeter/5.1.1/libexec/lib/asm-5.0.3.jar
+2020-01-17 09:32:25,663 WARN o.j.r.PluginManager: Found JAR conflict: /usr/local/Cellar/jmeter/5.1.1/libexec/lib/commons-beanutils-1.8.3.jar and /usr/local/Cellar/jmeter/5.1.1/libexec/lib/commons-beanutils-1.7.0.jar
+2020-01-17 09:32:25,664 WARN o.j.r.PluginManager: Found JAR conflict: /usr/local/Cellar/jmeter/5.1.1/libexec/lib/dnsjava-2.1.8.jar and /usr/local/Cellar/jmeter/5.1.1/libexec/lib/dnsjava-2.1.7.jar
+2020-01-17 09:32:25,664 WARN o.j.r.PluginManager: Found JAR conflict: /usr/local/Cellar/jmeter/5.1.1/libexec/lib/guava-19.0.jar and /usr/local/Cellar/jmeter/5.1.1/libexec/lib/guava-11.0.2.jar
+2020-01-17 09:32:25,665 WARN o.j.r.PluginManager: Found JAR conflict: /usr/local/Cellar/jmeter/5.1.1/libexec/lib/httpclient-4.5.jar and /usr/local/Cellar/jmeter/5.1.1/libexec/lib/httpclient-4.5.7.jar
+2020-01-17 09:32:25,665 WARN o.j.r.PluginManager: Found JAR conflict: /usr/local/Cellar/jmeter/5.1.1/libexec/lib/httpcore-4.4.11.jar and /usr/local/Cellar/jmeter/5.1.1/libexec/lib/httpcore-4.4.1.jar
+2020-01-17 09:32:25,665 WARN o.j.r.PluginManager: Found JAR conflict: /usr/local/Cellar/jmeter/5.1.1/libexec/lib/httpmime-4.5.jar and /usr/local/Cellar/jmeter/5.1.1/libexec/lib/httpmime-4.5.7.jar
+2020-01-17 09:32:25,665 WARN o.j.r.PluginManager: Found JAR conflict: /usr/local/Cellar/jmeter/5.1.1/libexec/lib/json-path-2.4.0.jar and /usr/local/Cellar/jmeter/5.1.1/libexec/lib/json-path-2.1.0.jar
+2020-01-17 09:32:25,665 WARN o.j.r.PluginManager: Found JAR conflict: /usr/local/Cellar/jmeter/5.1.1/libexec/lib/json-smart-2.3.jar and /usr/local/Cellar/jmeter/5.1.1/libexec/lib/json-smart-2.2.jar
+2020-01-17 09:32:25,666 WARN o.j.r.PluginManager: Found JAR conflict: /usr/local/Cellar/jmeter/5.1.1/libexec/lib/ext/JMeter-InfluxDB-Writer-plugin-1.2.jar and /usr/local/Cellar/jmeter/5.1.1/libexec/lib/JMeter-InfluxDB-Writer-plugin-1.2.jar
+2020-01-17 09:32:25,702 INFO o.j.r.JARSourceHTTP: Requesting https://jmeter-plugins.org/repo/?installID=mac_os_x-bcc3dfea9c0ec4a716d5b2a3ab2343a8-gui
+2020-01-17 09:32:27,693 INFO k.a.j.JMeterPluginsUtils: JMeter-Plugins.org v.1.4.0
+2020-01-17 09:32:28,515 WARN o.a.j.g.u.MenuFactory: Could not instantiate class: kg.apc.jmeter.reporters.LoadosophiaUploaderGui
+java.lang.reflect.InvocationTargetException: null
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:1.8.0_172]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62) ~[?:1.8.0_172]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[?:1.8.0_172]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423) ~[?:1.8.0_172]
+	at org.apache.jmeter.gui.util.MenuFactory.getGUIComponent(MenuFactory.java:174) ~[ApacheJMeter_core.jar:5.1.1 r1855137]
+	at org.apache.jmeter.gui.util.MenuFactory.initializeMenus(MenuFactory.java:141) ~[ApacheJMeter_core.jar:5.1.1 r1855137]
+	at org.apache.jmeter.gui.util.MenuFactory.<clinit>(MenuFactory.java:106) ~[ApacheJMeter_core.jar:5.1.1 r1855137]
+	at org.apache.jmeter.control.gui.TestPlanGui.createPopupMenu(TestPlanGui.java:92) ~[ApacheJMeter_core.jar:5.1.1 r1855137]
+	at org.apache.jmeter.gui.tree.JMeterTreeNode.createPopupMenu(JMeterTreeNode.java:185) ~[ApacheJMeter_core.jar:5.1.1 r1855137]
+	at org.apache.jmeter.gui.action.EditCommand.doAction(EditCommand.java:46) ~[ApacheJMeter_core.jar:5.1.1 r1855137]
+	at org.apache.jmeter.gui.action.ActionRouter.performAction(ActionRouter.java:88) ~[ApacheJMeter_core.jar:5.1.1 r1855137]
+	at org.apache.jmeter.gui.action.ActionRouter.lambda$actionPerformed$0(ActionRouter.java:70) ~[ApacheJMeter_core.jar:5.1.1 r1855137]
+	at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:311) [?:1.8.0_172]
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:758) [?:1.8.0_172]
+	at java.awt.EventQueue.access$500(EventQueue.java:97) [?:1.8.0_172]
+	at java.awt.EventQueue$3.run(EventQueue.java:709) [?:1.8.0_172]
+	at java.awt.EventQueue$3.run(EventQueue.java:703) [?:1.8.0_172]
+	at java.security.AccessController.doPrivileged(Native Method) [?:1.8.0_172]
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:74) [?:1.8.0_172]
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:728) [?:1.8.0_172]
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:205) [?:1.8.0_172]
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116) [?:1.8.0_172]
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105) [?:1.8.0_172]
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101) [?:1.8.0_172]
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93) [?:1.8.0_172]
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82) [?:1.8.0_172]
+Caused by: java.lang.NoClassDefFoundError: org/apache/commons/httpclient/methods/multipart/PartSource
+	at kg.apc.jmeter.reporters.LoadosophiaUploaderGui.init(LoadosophiaUploaderGui.java:114) ~[JMeterPlugins-Standard.jar:?]
+	at kg.apc.jmeter.reporters.LoadosophiaUploaderGui.<init>(LoadosophiaUploaderGui.java:28) ~[JMeterPlugins-Standard.jar:?]
+	... 26 more
+Caused by: java.lang.ClassNotFoundException: org.apache.commons.httpclient.methods.multipart.PartSource
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381) ~[?:1.8.0_172]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424) ~[?:1.8.0_172]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357) ~[?:1.8.0_172]
+	at kg.apc.jmeter.reporters.LoadosophiaUploaderGui.init(LoadosophiaUploaderGui.java:114) ~[JMeterPlugins-Standard.jar:?]
+	at kg.apc.jmeter.reporters.LoadosophiaUploaderGui.<init>(LoadosophiaUploaderGui.java:28) ~[JMeterPlugins-Standard.jar:?]
+	... 26 more
+2020-01-17 09:32:30,213 WARN o.j.r.Plugin: Unable to load class: com.atlantbh.jmeter.plugins.oauth.OAuthSampler
+java.lang.NoClassDefFoundError: org/apache/jmeter/protocol/http/sampler/HTTPSampler2
+	at java.lang.ClassLoader.defineClass1(Native Method) ~[?:1.8.0_172]
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:763) ~[?:1.8.0_172]
+	at java.security.SecureClassLoader.defineClass(SecureClassLoader.java:142) ~[?:1.8.0_172]
+	at java.net.URLClassLoader.defineClass(URLClassLoader.java:467) ~[?:1.8.0_172]
+	at java.net.URLClassLoader.access$100(URLClassLoader.java:73) ~[?:1.8.0_172]
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:368) ~[?:1.8.0_172]
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:362) ~[?:1.8.0_172]
+	at java.security.AccessController.doPrivileged(Native Method) ~[?:1.8.0_172]
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:361) ~[?:1.8.0_172]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424) ~[?:1.8.0_172]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357) ~[?:1.8.0_172]
+	at org.jmeterplugins.repository.Plugin.getJARPath(Plugin.java:202) [jmeter-plugins-manager-1.3.jar:?]
+	at org.jmeterplugins.repository.Plugin.detectInstalledPlugin(Plugin.java:108) [jmeter-plugins-manager-1.3.jar:?]
+	at org.jmeterplugins.repository.Plugin.detectInstalled(Plugin.java:97) [jmeter-plugins-manager-1.3.jar:?]
+	at org.jmeterplugins.repository.PluginManager.load(PluginManager.java:86) [jmeter-plugins-manager-1.3.jar:?]
+	at org.jmeterplugins.repository.PluginManagerMenuItem$1.run(PluginManagerMenuItem.java:41) [jmeter-plugins-manager-1.3.jar:?]
+Caused by: java.lang.ClassNotFoundException: org.apache.jmeter.protocol.http.sampler.HTTPSampler2
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381) ~[?:1.8.0_172]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424) ~[?:1.8.0_172]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357) ~[?:1.8.0_172]
+	... 16 more
+2020-01-17 09:32:30,223 INFO o.j.r.PluginManager: Plugins Status: [jpgc-graphs-basic=Standard, jpgc-graphs-additional=Extras, jpgc-autostop=Extras, jpgc-sense=Standard, jpgc-cmd=Standard, jpgc-graphs-composite=Standard, jpgc-csl=Standard, jpgc-functions=Standard, jpgc-casutg=Standard, jpgc-dbmon=Extras, jpgc-graphs-dist=Extras, jpgc-dummy=Standard, jpgc-filterresults=Standard, jpgc-ffw=Standard, jpgc-ggl=Extras, jpgc-httpraw=Extras, jpgc-sts=Extras, jpgc-hadoop=Hadoop, jpgc-fifo=Standard, jpgc-jms=ExtrasLibs, jpgc-jmxmon=Extras, jpgc-json=ExtrasLibs, jpgc-graphs-vs=Extras, jpgc-lockfile=Extras, jpgc-mergeresults=Standard, jpgc-pde=Extras, jpgc-prmctl=Extras, jpgc-perfmon=Standard, jpgc-plugins-manager=1.3, jpgc-redis=ExtrasLibs, jpgc-webdriver=WebDriver, jpgc-synthesis=Standard, jpgc-plancheck=Standard, jpgc-tst=Standard, jpgc-udp=Extras, jpgc-csvars=Extras, jpgc-wsc=Standard, jpgc-xml=Extras, jmeter-core=5.1.1, jmeter-ftp=5.1.1, jmeter-http=5.1.1, jmeter-jdbc=5.1.1, jmeter-jms=5.1.1, jmeter-junit=5.1.1, jmeter-java=5.1.1, jmeter-ldap=5.1.1, jmeter-mail=5.1.1, jmeter-mongodb=5.1.1, jmeter-native=5.1.1, jmeter-tcp=5.1.1, jmeter-components=5.1.1, jpgc-standard=2.0]
+2020-01-17 09:32:30,305 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2020-01-17 09:32:30,306 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2020-01-17 09:32:30,306 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2020-01-17 09:32:30,306 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2020-01-17 09:32:30,306 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
+2020-01-17 09:32:30,306 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
+2020-01-17 09:32:30,720 INFO o.a.j.e.KeyToolUtils: keytool found at 'keytool'
+2020-01-17 09:32:30,721 INFO o.a.j.p.h.p.ProxyControl: HTTP(S) Test Script Recorder SSL Proxy will use keys that support embedded 3rd party resources in file /usr/local/Cellar/jmeter/5.1.1/libexec/bin/proxyserver.jks
+2020-01-17 09:32:31,136 INFO o.a.j.s.FileServer: Default base='/Users/thabomhlongo/code/gatling-scala-load-tests/src/test/scala'
+2020-01-17 09:32:31,571 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
+2020-01-17 09:32:31,572 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to ISO-8859-1
+2020-01-17 09:32:31,572 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
+2020-01-17 09:32:31,572 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
+2020-01-17 09:32:43,457 INFO o.a.j.g.a.Load: Loading file: /Users/thabomhlongo/code/LoadTestScripts/cs_mobile-all.jmx
+2020-01-17 09:32:43,458 INFO o.a.j.s.FileServer: Set new base='/Users/thabomhlongo/code/LoadTestScripts'
+2020-01-17 09:32:43,758 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
+2020-01-17 09:32:43,762 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
+2020-01-17 09:32:43,766 INFO o.a.j.s.SaveService: Using SaveService properties version 5.0
+2020-01-17 09:32:43,771 INFO o.a.j.s.SaveService: Loading file: /Users/thabomhlongo/code/LoadTestScripts/cs_mobile-all.jmx
+2020-01-17 09:32:44,254 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must contain the string: '.functions.'
+2020-01-17 09:32:44,254 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must not contain the string: '.gui.'
+2020-01-17 09:32:45,187 INFO o.a.j.s.FileServer: Set new base='/Users/thabomhlongo/code/LoadTestScripts'
+2020-01-17 11:41:06,416 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2020-01-17 11:41:06,443 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2020-01-17 11:41:06,444 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2020-01-17 11:41:06,492 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2020-01-17 11:41:07,290 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Thread Group
+2020-01-17 11:41:07,291 INFO o.a.j.e.StandardJMeterEngine: Starting 100 threads for group Thread Group.
+2020-01-17 11:41:07,291 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2020-01-17 11:41:07,291 INFO k.a.j.t.AbstractSimpleThreadGroup: Starting thread group number 1 threads 100
+2020-01-17 11:41:07,417 INFO k.a.j.t.AbstractSimpleThreadGroup: Started thread group number 1
+2020-01-17 11:41:07,417 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 2 : Android tests
+2020-01-17 11:41:07,417 INFO o.a.j.e.StandardJMeterEngine: Starting 100 threads for group Android tests.
+2020-01-17 11:41:07,417 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2020-01-17 11:41:07,417 INFO k.a.j.t.AbstractSimpleThreadGroup: Starting thread group number 2 threads 100
+2020-01-17 11:41:07,465 INFO k.a.j.t.AbstractSimpleThreadGroup: Started thread group number 2
+2020-01-17 11:41:07,465 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 3 : Web
+2020-01-17 11:41:07,465 INFO o.a.j.e.StandardJMeterEngine: Starting 100 threads for group Web.
+2020-01-17 11:41:07,465 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2020-01-17 11:41:07,465 INFO k.a.j.t.AbstractSimpleThreadGroup: Starting thread group number 3 threads 100
+2020-01-17 11:41:07,509 INFO k.a.j.t.AbstractSimpleThreadGroup: Started thread group number 3
+2020-01-17 11:41:07,510 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2020-01-17 11:41:08,793 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-100
+2020-01-17 11:41:08,802 INFO o.a.j.s.FileServer: Stored: sessionIds.csv
+2020-01-17 11:41:08,820 INFO o.a.j.p.h.s.HTTPHCAbstractImpl: Local host = Thabos-MacBook-Pro.local
+2020-01-17 11:41:08,828 INFO o.a.j.p.h.s.HTTPHC4Impl: HTTP request retry count = 0
+2020-01-17 11:41:08,922 INFO o.a.j.t.JMeterThread: Thread started: Android tests 2-100
+2020-01-17 11:41:08,966 INFO o.a.j.t.JMeterThread: Thread started: Web 3-100
+2020-01-17 11:41:08,987 INFO o.a.j.p.h.s.h.LazyLayeredConnectionSocketFactory: Setting up HTTPS TrustAll Socket Factory
+2020-01-17 11:41:08,990 INFO o.a.j.u.JsseSSLManager: Using default SSL protocol: TLS
+2020-01-17 11:41:08,990 INFO o.a.j.u.JsseSSLManager: SSL session context: per-thread
+2020-01-17 11:41:08,999 INFO o.a.j.u.SSLManager: JmeterKeyStore Location:  type JKS
+2020-01-17 11:41:09,000 INFO o.a.j.u.SSLManager: KeyStore created OK
+2020-01-17 11:41:09,000 WARN o.a.j.u.SSLManager: Keystore file not found, loading empty keystore
+2020-01-17 11:41:10,293 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-99
+2020-01-17 11:41:10,419 INFO o.a.j.t.JMeterThread: Thread started: Android tests 2-99
+2020-01-17 11:41:10,466 INFO o.a.j.t.JMeterThread: Thread started: Web 3-99
+2020-01-17 11:41:11,794 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-98
+2020-01-17 11:41:11,917 INFO o.a.j.t.JMeterThread: Thread started: Android tests 2-98
+2020-01-17 11:41:11,966 INFO o.a.j.t.JMeterThread: Thread started: Web 3-98
+2020-01-17 11:41:13,295 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-97
+2020-01-17 11:41:13,423 INFO o.a.j.t.JMeterThread: Thread started: Android tests 2-97
+2020-01-17 11:41:13,465 INFO o.a.j.t.JMeterThread: Thread started: Web 3-97
+2020-01-17 11:41:14,793 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-96
+2020-01-17 11:41:14,917 INFO o.a.j.t.JMeterThread: Thread started: Android tests 2-96
+2020-01-17 11:41:14,965 INFO o.a.j.t.JMeterThread: Thread started: Web 3-96
+2020-01-17 11:41:15,446 INFO o.a.j.g.a.Start: Stopping test
+2020-01-17 11:41:15,471 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-4
+2020-01-17 11:41:15,471 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-76
+2020-01-17 11:41:15,471 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-4
+2020-01-17 11:41:15,471 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-76
+2020-01-17 11:41:15,472 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-4
+2020-01-17 11:41:15,472 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-76
+2020-01-17 11:41:15,472 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-10
+2020-01-17 11:41:15,472 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-96
+2020-01-17 11:41:15,474 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-96 sampler: cs_mobile_editorialsForHome_v4_ios
+2020-01-17 11:41:15,472 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-10
+2020-01-17 11:41:15,474 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-10
+2020-01-17 11:41:15,478 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-82
+2020-01-17 11:41:15,478 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-3
+2020-01-17 11:41:15,478 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-61
+2020-01-17 11:41:15,478 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-82
+2020-01-17 11:41:15,478 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-3
+2020-01-17 11:41:15,479 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-82
+2020-01-17 11:41:15,479 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-3
+2020-01-17 11:41:15,479 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-41
+2020-01-17 11:41:15,479 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-61
+2020-01-17 11:41:15,486 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-96
+2020-01-17 11:41:15,494 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-75
+2020-01-17 11:41:15,494 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-70
+2020-01-17 11:41:15,494 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-81
+2020-01-17 11:41:15,494 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-41
+2020-01-17 11:41:15,494 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-40
+2020-01-17 11:41:15,494 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-15
+2020-01-17 11:41:15,494 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-61
+2020-01-17 11:41:15,494 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-16
+2020-01-17 11:41:15,495 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-75
+2020-01-17 11:41:15,495 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-70
+2020-01-17 11:41:15,495 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-40
+2020-01-17 11:41:15,495 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-75
+2020-01-17 11:41:15,496 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-16
+2020-01-17 11:41:15,496 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-15
+2020-01-17 11:41:15,496 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-60
+2020-01-17 11:41:15,497 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-70
+2020-01-17 11:41:15,495 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-81
+2020-01-17 11:41:15,497 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-25
+2020-01-17 11:41:15,497 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-16
+2020-01-17 11:41:15,497 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-81
+2020-01-17 11:41:15,497 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-60
+2020-01-17 11:41:15,497 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-40
+2020-01-17 11:41:15,497 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-69
+2020-01-17 11:41:15,496 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-41
+2020-01-17 11:41:15,498 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-93
+2020-01-17 11:41:15,498 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-66
+2020-01-17 11:41:15,498 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-69
+2020-01-17 11:41:15,498 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-29
+2020-01-17 11:41:15,498 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-89
+2020-01-17 11:41:15,498 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-93
+2020-01-17 11:41:15,498 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-47
+2020-01-17 11:41:15,498 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-66
+2020-01-17 11:41:15,498 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-23
+2020-01-17 11:41:15,498 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-29
+2020-01-17 11:41:15,498 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-67
+2020-01-17 11:41:15,498 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-89
+2020-01-17 11:41:15,498 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-47
+2020-01-17 11:41:15,498 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-67
+2020-01-17 11:41:15,498 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-27
+2020-01-17 11:41:15,499 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-23
+2020-01-17 11:41:15,499 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-71
+2020-01-17 11:41:15,499 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-98
+2020-01-17 11:41:15,499 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-27
+2020-01-17 11:41:15,499 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-98 sampler: cs_mobile_getChannels
+2020-01-17 11:41:15,499 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-71
+2020-01-17 11:41:15,500 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-23
+2020-01-17 11:41:15,500 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-47
+2020-01-17 11:41:15,500 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-67
+2020-01-17 11:41:15,500 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-25
+2020-01-17 11:41:15,500 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-29
+2020-01-17 11:41:15,500 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-89
+2020-01-17 11:41:15,500 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-66
+2020-01-17 11:41:15,500 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-93
+2020-01-17 11:41:15,500 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-15
+2020-01-17 11:41:15,500 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-69
+2020-01-17 11:41:15,501 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-60
+2020-01-17 11:41:15,501 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-27
+2020-01-17 11:41:15,504 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-46
+2020-01-17 11:41:15,501 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-71
+2020-01-17 11:41:15,505 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-25
+2020-01-17 11:41:15,505 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-72
+2020-01-17 11:41:15,506 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-91
+2020-01-17 11:41:15,506 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-95
+2020-01-17 11:41:15,506 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-46
+2020-01-17 11:41:15,506 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-72
+2020-01-17 11:41:15,506 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-91
+2020-01-17 11:41:15,506 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-46
+2020-01-17 11:41:15,506 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-72
+2020-01-17 11:41:15,506 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-32
+2020-01-17 11:41:15,506 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-91
+2020-01-17 11:41:15,506 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-99
+2020-01-17 11:41:15,506 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-95
+2020-01-17 11:41:15,506 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-99 sampler: cs_mobile_catalogueV4_movies_ios
+2020-01-17 11:41:15,506 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-32
+2020-01-17 11:41:15,506 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-95
+2020-01-17 11:41:15,506 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-32
+2020-01-17 11:41:15,508 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-50
+2020-01-17 11:41:15,509 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-28
+2020-01-17 11:41:15,509 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-36
+2020-01-17 11:41:15,509 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-39
+2020-01-17 11:41:15,509 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-50
+2020-01-17 11:41:15,509 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-28
+2020-01-17 11:41:15,509 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-54
+2020-01-17 11:41:15,509 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-9
+2020-01-17 11:41:15,509 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-50
+2020-01-17 11:41:15,509 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-39
+2020-01-17 11:41:15,509 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-54
+2020-01-17 11:41:15,509 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-62
+2020-01-17 11:41:15,509 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-88
+2020-01-17 11:41:15,509 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-54
+2020-01-17 11:41:15,509 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-39
+2020-01-17 11:41:15,509 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-36
+2020-01-17 11:41:15,512 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-36
+2020-01-17 11:41:15,509 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-86
+2020-01-17 11:41:15,510 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-62
+2020-01-17 11:41:15,510 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-9
+2020-01-17 11:41:15,513 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-78
+2020-01-17 11:41:15,513 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-9
+2020-01-17 11:41:15,513 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-87
+2020-01-17 11:41:15,513 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-64
+2020-01-17 11:41:15,513 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-1
+2020-01-17 11:41:15,513 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-62
+2020-01-17 11:41:15,514 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-35
+2020-01-17 11:41:15,513 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-78
+2020-01-17 11:41:15,514 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-21
+2020-01-17 11:41:15,514 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-13
+2020-01-17 11:41:15,514 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-86
+2020-01-17 11:41:15,514 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-7
+2020-01-17 11:41:15,514 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-19
+2020-01-17 11:41:15,514 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-86
+2020-01-17 11:41:15,514 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-64
+2020-01-17 11:41:15,514 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-1
+2020-01-17 11:41:15,514 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-64
+2020-01-17 11:41:15,514 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-1
+2020-01-17 11:41:15,514 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-78
+2020-01-17 11:41:15,514 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-87
+2020-01-17 11:41:15,514 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-90
+2020-01-17 11:41:15,515 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-19
+2020-01-17 11:41:15,515 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-59
+2020-01-17 11:41:15,515 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-19
+2020-01-17 11:41:15,515 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-84
+2020-01-17 11:41:15,515 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-90
+2020-01-17 11:41:15,515 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-14
+2020-01-17 11:41:15,515 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-33
+2020-01-17 11:41:15,515 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-90
+2020-01-17 11:41:15,515 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-59
+2020-01-17 11:41:15,515 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-84
+2020-01-17 11:41:15,515 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-14
+2020-01-17 11:41:15,515 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-59
+2020-01-17 11:41:15,516 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-33
+2020-01-17 11:41:15,516 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-14
+2020-01-17 11:41:15,516 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-33
+2020-01-17 11:41:15,516 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-98
+2020-01-17 11:41:15,515 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-94
+2020-01-17 11:41:15,523 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-43
+2020-01-17 11:41:15,514 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-7
+2020-01-17 11:41:15,523 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-48
+2020-01-17 11:41:15,514 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-13
+2020-01-17 11:41:15,523 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-57
+2020-01-17 11:41:15,514 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-21
+2020-01-17 11:41:15,523 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-2
+2020-01-17 11:41:15,514 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-35
+2020-01-17 11:41:15,510 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-88
+2020-01-17 11:41:15,524 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-57
+2020-01-17 11:41:15,524 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-43
+2020-01-17 11:41:15,524 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-94
+2020-01-17 11:41:15,524 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-83
+2020-01-17 11:41:15,524 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-68
+2020-01-17 11:41:15,524 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-48
+2020-01-17 11:41:15,524 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-52
+2020-01-17 11:41:15,524 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-17
+2020-01-17 11:41:15,524 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-83
+2020-01-17 11:41:15,525 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-45
+2020-01-17 11:41:15,525 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-77
+2020-01-17 11:41:15,525 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-20
+2020-01-17 11:41:15,525 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-68
+2020-01-17 11:41:15,525 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-18
+2020-01-17 11:41:15,525 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-80
+2020-01-17 11:41:15,525 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-97
+2020-01-17 11:41:15,525 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-17
+2020-01-17 11:41:15,525 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-97 sampler: cs_mobile_catalogueV4_movies_ios
+2020-01-17 11:41:15,525 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-45
+2020-01-17 11:41:15,525 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-52
+2020-01-17 11:41:15,524 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-2
+2020-01-17 11:41:15,525 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-77
+2020-01-17 11:41:15,525 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-20
+2020-01-17 11:41:15,525 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-18
+2020-01-17 11:41:15,525 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-80
+2020-01-17 11:41:15,527 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-20
+2020-01-17 11:41:15,527 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-18
+2020-01-17 11:41:15,527 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-77
+2020-01-17 11:41:15,527 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-80
+2020-01-17 11:41:15,527 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-2
+2020-01-17 11:41:15,527 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-52
+2020-01-17 11:41:15,528 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-45
+2020-01-17 11:41:15,528 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-17
+2020-01-17 11:41:15,528 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-68
+2020-01-17 11:41:15,528 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-83
+2020-01-17 11:41:15,528 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-48
+2020-01-17 11:41:15,528 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-88
+2020-01-17 11:41:15,528 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-21
+2020-01-17 11:41:15,528 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-43
+2020-01-17 11:41:15,528 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-57
+2020-01-17 11:41:15,528 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-94
+2020-01-17 11:41:15,528 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-28
+2020-01-17 11:41:15,528 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-35
+2020-01-17 11:41:15,529 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-13
+2020-01-17 11:41:15,529 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-7
+2020-01-17 11:41:15,529 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-87
+2020-01-17 11:41:15,529 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-84
+2020-01-17 11:41:15,532 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-37
+2020-01-17 11:41:15,532 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-92
+2020-01-17 11:41:15,532 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-37
+2020-01-17 11:41:15,532 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-38
+2020-01-17 11:41:15,532 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-11
+2020-01-17 11:41:15,532 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-92
+2020-01-17 11:41:15,532 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-79
+2020-01-17 11:41:15,532 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-37
+2020-01-17 11:41:15,532 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-85
+2020-01-17 11:41:15,532 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-92
+2020-01-17 11:41:15,532 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-44
+2020-01-17 11:41:15,532 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-38
+2020-01-17 11:41:15,532 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-11
+2020-01-17 11:41:15,533 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-79
+2020-01-17 11:41:15,533 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-38
+2020-01-17 11:41:15,533 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-85
+2020-01-17 11:41:15,533 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-11
+2020-01-17 11:41:15,533 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-79
+2020-01-17 11:41:15,533 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-85
+2020-01-17 11:41:15,533 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-63
+2020-01-17 11:41:15,533 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-56
+2020-01-17 11:41:15,533 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-44
+2020-01-17 11:41:15,533 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-55
+2020-01-17 11:41:15,533 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-100
+2020-01-17 11:41:15,533 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-56
+2020-01-17 11:41:15,533 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-44
+2020-01-17 11:41:15,533 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-100 sampler: cs_mobile_catalogueV4_sport_xbox
+2020-01-17 11:41:15,533 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-55
+2020-01-17 11:41:15,533 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-63
+2020-01-17 11:41:15,535 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-5
+2020-01-17 11:41:15,535 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-56
+2020-01-17 11:41:15,535 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-55
+2020-01-17 11:41:15,535 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-12
+2020-01-17 11:41:15,535 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-5
+2020-01-17 11:41:15,535 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-63
+2020-01-17 11:41:15,535 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-51
+2020-01-17 11:41:15,535 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-65
+2020-01-17 11:41:15,535 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-22
+2020-01-17 11:41:15,535 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-12
+2020-01-17 11:41:15,535 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-5
+2020-01-17 11:41:15,535 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-53
+2020-01-17 11:41:15,535 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-34
+2020-01-17 11:41:15,535 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-12
+2020-01-17 11:41:15,535 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-73
+2020-01-17 11:41:15,535 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-51
+2020-01-17 11:41:15,536 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-6
+2020-01-17 11:41:15,536 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-24
+2020-01-17 11:41:15,536 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-49
+2020-01-17 11:41:15,536 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-51
+2020-01-17 11:41:15,536 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-74
+2020-01-17 11:41:15,536 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-22
+2020-01-17 11:41:15,536 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-65
+2020-01-17 11:41:15,536 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-53
+2020-01-17 11:41:15,536 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-58
+2020-01-17 11:41:15,537 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-22
+2020-01-17 11:41:15,537 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-42
+2020-01-17 11:41:15,537 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-65
+2020-01-17 11:41:15,537 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-26
+2020-01-17 11:41:15,537 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-53
+2020-01-17 11:41:15,538 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-31
+2020-01-17 11:41:15,537 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-34
+2020-01-17 11:41:15,538 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-8
+2020-01-17 11:41:15,538 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-30
+2020-01-17 11:41:15,538 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-6
+2020-01-17 11:41:15,538 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-34
+2020-01-17 11:41:15,538 INFO o.a.j.t.JMeterThread: Stopping: Android tests 2-57
+2020-01-17 11:41:15,539 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-49
+2020-01-17 11:41:15,539 INFO o.a.j.t.JMeterThread: Stopping: Android tests 2-89
+2020-01-17 11:41:15,539 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-74
+2020-01-17 11:41:15,539 INFO o.a.j.t.JMeterThread: Stopping: Android tests 2-41
+2020-01-17 11:41:15,539 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-58
+2020-01-17 11:41:15,539 INFO o.a.j.t.JMeterThread: Stopping: Android tests 2-81
+2020-01-17 11:41:15,539 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-74
+2020-01-17 11:41:15,539 INFO o.a.j.t.JMeterThread: Stopping: Android tests 2-1
+2020-01-17 11:41:15,539 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-58
+2020-01-17 11:41:15,539 INFO o.a.j.t.JMeterThread: Stopping: Android tests 2-36
+2020-01-17 11:41:15,539 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-42
+2020-01-17 11:41:15,539 INFO o.a.j.t.JMeterThread: Stopping: Android tests 2-56
+2020-01-17 11:41:15,539 INFO o.a.j.t.JMeterThread: Stopping: Android tests 2-69
+2020-01-17 11:41:15,539 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-26
+2020-01-17 11:41:15,539 INFO o.a.j.t.JMeterThread: Stopping: Android tests 2-6
+2020-01-17 11:41:15,539 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-42
+2020-01-17 11:41:15,537 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-73
+2020-01-17 11:41:15,539 INFO o.a.j.t.JMeterThread: Stopping: Android tests 2-25
+2020-01-17 11:41:15,539 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-31
+2020-01-17 11:41:15,540 INFO o.a.j.t.JMeterThread: Stopping: Android tests 2-26
+2020-01-17 11:41:15,540 INFO o.a.j.t.JMeterThread: Stopping: Android tests 2-34
+2020-01-17 11:41:15,540 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-6
+2020-01-17 11:41:15,540 INFO o.a.j.t.JMeterThread: Stopping: Android tests 2-30
+2020-01-17 11:41:15,540 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-30
+2020-01-17 11:41:15,540 INFO o.a.j.t.JMeterThread: Thread started: Android tests 2-57
+2020-01-17 11:41:15,540 INFO o.a.j.t.JMeterThread: Stopping: Android tests 2-86
+2020-01-17 11:41:15,540 INFO o.a.j.t.JMeterThread: Stopping: Android tests 2-31
+2020-01-17 11:41:15,540 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-30
+2020-01-17 11:41:15,540 INFO o.a.j.t.JMeterThread: Stopping: Android tests 2-96
+2020-01-17 11:41:15,540 INFO o.a.j.t.JMeterThread: Thread finished: Android tests 2-57
+2020-01-17 11:41:15,540 WARN o.a.j.t.JMeterThread: Interrupting: Android tests 2-96 sampler: cs_mobile_getEditorialsForUser_v3_Android
+2020-01-17 11:41:15,540 INFO o.a.j.t.JMeterThread: Thread started: Android tests 2-89
+2020-01-17 11:41:15,540 INFO o.a.j.t.JMeterThread: Thread started: Android tests 2-41
+2020-01-17 11:41:15,540 INFO o.a.j.t.JMeterThread: Thread started: Android tests 2-81
+2020-01-17 11:41:15,541 INFO o.a.j.t.JMeterThread: Thread finished: Android tests 2-89
+2020-01-17 11:41:15,541 INFO o.a.j.t.JMeterThread: Thread finished: Android tests 2-41
+2020-01-17 11:41:15,541 INFO o.a.j.t.JMeterThread: Thread started: Android tests 2-36
+2020-01-17 11:41:15,541 INFO o.a.j.t.JMeterThread: Thread finished: Android tests 2-81
+2020-01-17 11:41:15,541 INFO o.a.j.t.JMeterThread: Thread finished: Android tests 2-36
+2020-01-17 11:41:15,541 INFO o.a.j.t.JMeterThread: Thread started: Android tests 2-69
+2020-01-17 11:41:15,541 INFO o.a.j.t.JMeterThread: Thread started: Android tests 2-25
+2020-01-17 11:41:15,541 INFO o.a.j.t.JMeterThread: Thread started: Android tests 2-6
+2020-01-17 11:41:15,541 INFO o.a.j.t.JMeterThread: Thread started: Android tests 2-34
+2020-01-17 11:41:15,541 INFO o.a.j.t.JMeterThread: Thread started: Android tests 2-26
+2020-01-17 11:41:15,541 INFO o.a.j.t.JMeterThread: Thread finished: Android tests 2-25
+2020-01-17 11:41:15,541 INFO o.a.j.t.JMeterThread: Thread finished: Android tests 2-34
+2020-01-17 11:41:15,541 INFO o.a.j.t.JMeterThread: Thread finished: Android tests 2-6
+2020-01-17 11:41:15,541 INFO o.a.j.t.JMeterThread: Thread finished: Android tests 2-26
+2020-01-17 11:41:15,542 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-26
+2020-01-17 11:41:15,542 INFO o.a.j.t.JMeterThread: Thread started: Android tests 2-86
+2020-01-17 11:41:15,542 INFO o.a.j.t.JMeterThread: Thread started: Android tests 2-31
+2020-01-17 11:41:15,539 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-49
+2020-01-17 11:41:15,538 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-24
+2020-01-17 11:41:15,543 INFO o.a.j.t.JMeterThread: Thread finished: Android tests 2-31
+2020-01-17 11:41:15,543 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-24
+2020-01-17 11:41:15,542 INFO o.a.j.t.JMeterThread: Thread started: Android tests 2-30
+2020-01-17 11:41:15,541 INFO o.a.j.t.JMeterThread: Thread started: Android tests 2-1
+2020-01-17 11:41:15,543 INFO o.a.j.t.JMeterThread: Thread finished: Android tests 2-30
+2020-01-17 11:41:15,544 INFO o.a.j.t.JMeterThread: Thread finished: Android tests 2-1
+2020-01-17 11:41:15,539 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-8
+2020-01-17 11:41:15,543 INFO o.a.j.t.JMeterThread: Stopping: Android tests 2-60
+2020-01-17 11:41:15,544 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-73
+2020-01-17 11:41:15,544 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-31
+2020-01-17 11:41:15,544 INFO o.a.j.t.JMeterThread: Stopping: Android tests 2-53
+2020-01-17 11:41:15,544 INFO o.a.j.t.JMeterThread: Stopping: Android tests 2-100
+2020-01-17 11:41:15,544 WARN o.a.j.t.JMeterThread: Interrupting: Android tests 2-100 sampler: cs_mobile_getEditorialsForCatchup_v4_android
+2020-01-17 11:41:15,545 INFO o.a.j.t.JMeterThread: Stopping: Android tests 2-65
+2020-01-17 11:41:15,544 INFO o.a.j.t.JMeterThread: Thread started: Android tests 2-60
+2020-01-17 11:41:15,541 INFO o.a.j.t.JMeterThread: Thread started: Android tests 2-56
+2020-01-17 11:41:15,545 INFO o.a.j.t.JMeterThread: Stopping: Android tests 2-7
+2020-01-17 11:41:15,544 INFO o.a.j.t.JMeterThread: Thread started: Android tests 2-53
+2020-01-17 11:41:15,545 INFO o.a.j.t.JMeterThread: Stopping: Android tests 2-42
+2020-01-17 11:41:15,545 INFO o.a.j.t.JMeterThread: Thread finished: Android tests 2-69
+2020-01-17 11:41:15,545 INFO o.a.j.t.JMeterThread: Thread finished: Android tests 2-60
+2020-01-17 11:41:15,545 INFO o.a.j.t.JMeterThread: Thread started: Android tests 2-65
+2020-01-17 11:41:15,545 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-8
+2020-01-17 11:41:15,545 INFO o.a.j.t.JMeterThread: Thread started: Android tests 2-7
+2020-01-17 11:41:15,545 INFO o.a.j.t.JMeterThread: Thread finished: Android tests 2-65
+2020-01-17 11:41:15,546 INFO o.a.j.t.JMeterThread: Thread finished: Android tests 2-7
+2020-01-17 11:41:15,546 INFO o.a.j.t.JMeterThread: Thread started: Android tests 2-42
+2020-01-17 11:41:15,546 INFO o.a.j.t.JMeterThread: Thread finished: Android tests 2-53
+2020-01-17 11:41:15,545 INFO o.a.j.t.JMeterThread: Thread finished: Android tests 2-86
+2020-01-17 11:41:15,546 INFO o.a.j.t.JMeterThread: Thread finished: Android tests 2-56
+2020-01-17 11:41:15,545 INFO o.a.j.t.JMeterThread: Stopping: Android tests 2-70
+2020-01-17 11:41:15,546 INFO o.a.j.t.JMeterThread: Stopping: Android tests 2-49
+2020-01-17 11:41:15,546 INFO o.a.j.t.JMeterThread: Thread finished: Android tests 2-42
+2020-01-17 11:41:15,546 INFO o.a.j.t.JMeterThread: Stopping: Android tests 2-77
+2020-01-17 11:41:15,546 INFO o.a.j.t.JMeterThread: Thread started: Android tests 2-70
+2020-01-17 11:41:15,546 INFO o.a.j.t.JMeterThread: Stopping: Android tests 2-35
+2020-01-17 11:41:15,546 INFO o.a.j.t.JMeterThread: Thread started: Android tests 2-49
+2020-01-17 11:41:15,546 INFO o.a.j.t.JMeterThread: Stopping: Android tests 2-90
+2020-01-17 11:41:15,546 INFO o.a.j.t.JMeterThread: Thread started: Android tests 2-77
+2020-01-17 11:41:15,546 INFO o.a.j.t.JMeterThread: Thread finished: Android tests 2-70
+2020-01-17 11:41:15,546 INFO o.a.j.t.JMeterThread: Thread finished: Android tests 2-49
+2020-01-17 11:41:15,546 INFO o.a.j.t.JMeterThread: Thread started: Android tests 2-35
+2020-01-17 11:41:15,546 INFO o.a.j.t.JMeterThread: Stopping: Android tests 2-28
+2020-01-17 11:41:15,547 INFO o.a.j.t.JMeterThread: Stopping: Android tests 2-45
+2020-01-17 11:41:15,547 INFO o.a.j.t.JMeterThread: Stopping: Android tests 2-71
+2020-01-17 11:41:15,547 INFO o.a.j.t.JMeterThread: Stopping: Android tests 2-59
+2020-01-17 11:41:15,547 INFO o.a.j.t.JMeterThread: Thread finished: Android tests 2-77
+2020-01-17 11:41:15,547 INFO o.a.j.t.JMeterThread: Thread started: Android tests 2-45
+2020-01-17 11:41:15,547 INFO o.a.j.t.JMeterThread: Thread started: Android tests 2-28
+2020-01-17 11:41:15,547 INFO o.a.j.t.JMeterThread: Stopping: Android tests 2-94
+2020-01-17 11:41:15,547 INFO o.a.j.t.JMeterThread: Thread started: Android tests 2-90
+2020-01-17 11:41:15,547 INFO o.a.j.t.JMeterThread: Thread started: Android tests 2-71
+2020-01-17 11:41:15,547 INFO o.a.j.t.JMeterThread: Thread finished: Android tests 2-45
+2020-01-17 11:41:15,547 INFO o.a.j.t.JMeterThread: Thread finished: Android tests 2-90
+2020-01-17 11:41:15,547 INFO o.a.j.t.JMeterThread: Thread finished: Android tests 2-71
+2020-01-17 11:41:15,547 INFO o.a.j.t.JMeterThread: Thread finished: Android tests 2-35
+2020-01-17 11:41:15,547 INFO o.a.j.t.JMeterThread: Stopping: Android tests 2-82
+2020-01-17 11:41:15,548 INFO o.a.j.t.JMeterThread: Stopping: Android tests 2-50
+2020-01-17 11:41:15,548 INFO o.a.j.t.JMeterThread: Thread started: Android tests 2-94
+2020-01-17 11:41:15,548 INFO o.a.j.t.JMeterThread: Stopping: Android tests 2-64
+2020-01-17 11:41:15,548 INFO o.a.j.t.JMeterThread: Stopping: Android tests 2-46
+2020-01-17 11:41:15,548 INFO o.a.j.t.JMeterThread: Stopping: Android tests 2-87
+2020-01-17 11:41:15,548 INFO o.a.j.t.JMeterThread: Thread finished: Android tests 2-28
+2020-01-17 11:41:15,548 INFO o.a.j.t.JMeterThread: Stopping: Android tests 2-21
+2020-01-17 11:41:15,548 INFO o.a.j.t.JMeterThread: Thread finished: Android tests 2-94
+2020-01-17 11:41:15,548 INFO o.a.j.t.JMeterThread: Thread started: Android tests 2-82
+2020-01-17 11:41:15,547 INFO o.a.j.t.JMeterThread: Thread started: Android tests 2-59
+2020-01-17 11:41:15,548 INFO o.a.j.t.JMeterThread: Thread finished: Android tests 2-82
+2020-01-17 11:41:15,548 INFO o.a.j.t.JMeterThread: Thread started: Android tests 2-64
+2020-01-17 11:41:15,548 INFO o.a.j.t.JMeterThread: Thread finished: Android tests 2-59
+2020-01-17 11:41:15,548 INFO o.a.j.t.JMeterThread: Thread started: Android tests 2-50
+2020-01-17 11:41:15,548 INFO o.a.j.t.JMeterThread: Thread finished: Android tests 2-64
+2020-01-17 11:41:15,549 INFO o.a.j.t.JMeterThread: Thread finished: Android tests 2-50
+2020-01-17 11:41:15,549 INFO o.a.j.t.JMeterThread: Thread started: Android tests 2-46
+2020-01-17 11:41:15,549 INFO o.a.j.t.JMeterThread: Thread started: Android tests 2-87
+2020-01-17 11:41:15,549 INFO o.a.j.t.JMeterThread: Thread finished: Android tests 2-46
+2020-01-17 11:41:15,549 INFO o.a.j.t.JMeterThread: Thread started: Android tests 2-21
+2020-01-17 11:41:15,549 INFO o.a.j.t.JMeterThread: Thread finished: Android tests 2-87
+2020-01-17 11:41:15,548 INFO o.a.j.t.JMeterThread: Stopping: Android tests 2-40
+2020-01-17 11:41:15,549 INFO o.a.j.t.JMeterThread: Thread finished: Android tests 2-21
+2020-01-17 11:41:15,549 INFO o.a.j.t.JMeterThread: Stopping: Android tests 2-12
+2020-01-17 11:41:15,549 INFO o.a.j.t.JMeterThread: Thread started: Android tests 2-40
+2020-01-17 11:41:15,549 INFO o.a.j.t.JMeterThread: Stopping: Android tests 2-93
+2020-01-17 11:41:15,550 INFO o.a.j.t.JMeterThread: Thread finished: Android tests 2-40
+2020-01-17 11:41:15,550 INFO o.a.j.t.JMeterThread: Thread started: Android tests 2-12
+2020-01-17 11:41:15,550 INFO o.a.j.t.JMeterThread: Stopping: Android tests 2-17
+2020-01-17 11:41:15,550 INFO o.a.j.t.JMeterThread: Stopping: Android tests 2-8
+2020-01-17 11:41:15,550 INFO o.a.j.t.JMeterThread: Thread started: Android tests 2-93
+2020-01-17 11:41:15,550 INFO o.a.j.t.JMeterThread: Thread finished: Android tests 2-12
+2020-01-17 11:41:15,550 INFO o.a.j.t.JMeterThread: Stopping: Android tests 2-51
+2020-01-17 11:41:15,550 INFO o.a.j.t.JMeterThread: Thread started: Android tests 2-17
+2020-01-17 11:41:15,550 INFO o.a.j.t.JMeterThread: Thread finished: Android tests 2-93
+2020-01-17 11:41:15,550 INFO o.a.j.t.JMeterThread: Thread started: Android tests 2-8
+2020-01-17 11:41:15,550 INFO o.a.j.t.JMeterThread: Thread started: Android tests 2-51
+2020-01-17 11:41:15,550 INFO o.a.j.t.JMeterThread: Stopping: Android tests 2-63
+2020-01-17 11:41:15,550 INFO o.a.j.t.JMeterThread: Thread finished: Android tests 2-17
+2020-01-17 11:41:15,550 INFO o.a.j.t.JMeterThread: Stopping: Android tests 2-11
+2020-01-17 11:41:15,550 INFO o.a.j.t.JMeterThread: Stopping: Android tests 2-79
+2020-01-17 11:41:15,551 INFO o.a.j.t.JMeterThread: Thread finished: Android tests 2-51
+2020-01-17 11:41:15,550 INFO o.a.j.t.JMeterThread: Thread finished: Android tests 2-8
+2020-01-17 11:41:15,551 INFO o.a.j.t.JMeterThread: Stopping: Android tests 2-18
+2020-01-17 11:41:15,551 INFO o.a.j.t.JMeterThread: Stopping: Android tests 2-5
+2020-01-17 11:41:15,551 INFO o.a.j.t.JMeterThread: Thread started: Android tests 2-63
+2020-01-17 11:41:15,551 INFO o.a.j.t.JMeterThread: Stopping: Android tests 2-84
+2020-01-17 11:41:15,551 INFO o.a.j.t.JMeterThread: Stopping: Android tests 2-95
+2020-01-17 11:41:15,551 INFO o.a.j.t.JMeterThread: Stopping: Android tests 2-14
+2020-01-17 11:41:15,551 INFO o.a.j.t.JMeterThread: Thread started: Android tests 2-11
+2020-01-17 11:41:15,551 INFO o.a.j.t.JMeterThread: Thread finished: Android tests 2-63
+2020-01-17 11:41:15,551 INFO o.a.j.t.JMeterThread: Stopping: Android tests 2-39
+2020-01-17 11:41:15,551 INFO o.a.j.t.JMeterThread: Stopping: Android tests 2-37
+2020-01-17 11:41:15,551 INFO o.a.j.t.JMeterThread: Thread started: Android tests 2-79
+2020-01-17 11:41:15,551 INFO o.a.j.t.JMeterThread: Thread started: Android tests 2-84
+2020-01-17 11:41:15,551 INFO o.a.j.t.JMeterThread: Thread finished: Android tests 2-79
+2020-01-17 11:41:15,551 INFO o.a.j.t.JMeterThread: Thread finished: Android tests 2-84
+2020-01-17 11:41:15,552 INFO o.a.j.t.JMeterThread: Thread finished: Android tests 2-11
+2020-01-17 11:41:15,552 INFO o.a.j.t.JMeterThread: Thread started: Android tests 2-37
+2020-01-17 11:41:15,551 INFO o.a.j.t.JMeterThread: Thread started: Android tests 2-95
+2020-01-17 11:41:15,552 INFO o.a.j.t.JMeterThread: Stopping: Android tests 2-72
+2020-01-17 11:41:15,551 INFO o.a.j.t.JMeterThread: Thread started: Android tests 2-5
+2020-01-17 11:41:15,552 INFO o.a.j.t.JMeterThread: Thread finished: Android tests 2-37
+2020-01-17 11:41:15,552 INFO o.a.j.t.JMeterThread: Thread finished: Android tests 2-95
+2020-01-17 11:41:15,551 INFO o.a.j.t.JMeterThread: Thread started: Android tests 2-18
+2020-01-17 11:41:15,552 INFO o.a.j.t.JMeterThread: Stopping: Android tests 2-4
+2020-01-17 11:41:15,552 INFO o.a.j.t.JMeterThread: Thread finished: Android tests 2-5
+2020-01-17 11:41:15,552 INFO o.a.j.t.JMeterThread: Stopping: Android tests 2-91
+2020-01-17 11:41:15,552 INFO o.a.j.t.JMeterThread: Thread finished: Android tests 2-18
+2020-01-17 11:41:15,552 INFO o.a.j.t.JMeterThread: Stopping: Android tests 2-52
+2020-01-17 11:41:15,552 INFO o.a.j.t.JMeterThread: Stopping: Android tests 2-27
+2020-01-17 11:41:15,551 INFO o.a.j.t.JMeterThread: Thread started: Android tests 2-39
+2020-01-17 11:41:15,552 INFO o.a.j.t.JMeterThread: Stopping: Android tests 2-92
+2020-01-17 11:41:15,552 INFO o.a.j.t.JMeterThread: Stopping: Android tests 2-29
+2020-01-17 11:41:15,552 INFO o.a.j.t.JMeterThread: Thread finished: Android tests 2-39
+2020-01-17 11:41:15,552 INFO o.a.j.t.JMeterThread: Stopping: Android tests 2-48
+2020-01-17 11:41:15,552 INFO o.a.j.t.JMeterThread: Thread started: Android tests 2-4
+2020-01-17 11:41:15,552 INFO o.a.j.t.JMeterThread: Thread started: Android tests 2-91
+2020-01-17 11:41:15,553 INFO o.a.j.t.JMeterThread: Thread finished: Android tests 2-4
+2020-01-17 11:41:15,553 INFO o.a.j.t.JMeterThread: Thread started: Android tests 2-52
+2020-01-17 11:41:15,553 INFO o.a.j.t.JMeterThread: Thread finished: Android tests 2-91
+2020-01-17 11:41:15,551 INFO o.a.j.t.JMeterThread: Thread started: Android tests 2-14
+2020-01-17 11:41:15,553 INFO o.a.j.t.JMeterThread: Thread started: Android tests 2-29
+2020-01-17 11:41:15,553 INFO o.a.j.t.JMeterThread: Thread started: Android tests 2-92
+2020-01-17 11:41:15,553 INFO o.a.j.t.JMeterThread: Thread started: Android tests 2-27
+2020-01-17 11:41:15,553 INFO o.a.j.t.JMeterThread: Thread finished: Android tests 2-52
+2020-01-17 11:41:15,553 INFO o.a.j.t.JMeterThread: Stopping: Android tests 2-2
+2020-01-17 11:41:15,552 INFO o.a.j.t.JMeterThread: Thread started: Android tests 2-72
+2020-01-17 11:41:15,553 INFO o.a.j.t.JMeterThread: Thread started: Android tests 2-48
+2020-01-17 11:41:15,553 INFO o.a.j.t.JMeterThread: Thread finished: Android tests 2-29
+2020-01-17 11:41:15,553 INFO o.a.j.t.JMeterThread: Stopping: Android tests 2-19
+2020-01-17 11:41:15,553 INFO o.a.j.t.JMeterThread: Thread started: Android tests 2-2
+2020-01-17 11:41:15,553 INFO o.a.j.t.JMeterThread: Thread finished: Android tests 2-72
+2020-01-17 11:41:15,553 INFO o.a.j.t.JMeterThread: Thread finished: Android tests 2-14
+2020-01-17 11:41:15,554 INFO o.a.j.t.JMeterThread: Thread finished: Android tests 2-27
+2020-01-17 11:41:15,554 INFO o.a.j.t.JMeterThread: Thread finished: Android tests 2-2
+2020-01-17 11:41:15,553 INFO o.a.j.t.JMeterThread: Thread finished: Android tests 2-48
+2020-01-17 11:41:15,554 INFO o.a.j.t.JMeterThread: Thread finished: Android tests 2-92
+2020-01-17 11:41:15,554 INFO o.a.j.t.JMeterThread: Stopping: Android tests 2-73
+2020-01-17 11:41:15,554 INFO o.a.j.t.JMeterThread: Thread started: Android tests 2-19
+2020-01-17 11:41:15,554 INFO o.a.j.t.JMeterThread: Stopping: Android tests 2-23
+2020-01-17 11:41:15,554 INFO o.a.j.t.JMeterThread: Thread finished: Android tests 2-19
+2020-01-17 11:41:15,554 INFO o.a.j.t.JMeterThread: Stopping: Android tests 2-10
+2020-01-17 11:41:15,554 INFO o.a.j.t.JMeterThread: Thread started: Android tests 2-73
+2020-01-17 11:41:15,554 INFO o.a.j.t.JMeterThread: Stopping: Android tests 2-32
+2020-01-17 11:41:15,554 INFO o.a.j.t.JMeterThread: Thread started: Android tests 2-23
+2020-01-17 11:41:15,554 INFO o.a.j.t.JMeterThread: Stopping: Android tests 2-15
+2020-01-17 11:41:15,554 INFO o.a.j.t.JMeterThread: Thread finished: Android tests 2-73
+2020-01-17 11:41:15,554 INFO o.a.j.t.JMeterThread: Stopping: Android tests 2-55
+2020-01-17 11:41:15,554 INFO o.a.j.t.JMeterThread: Thread finished: Android tests 2-23
+2020-01-17 11:41:15,554 INFO o.a.j.t.JMeterThread: Stopping: Android tests 2-74
+2020-01-17 11:41:15,554 INFO o.a.j.t.JMeterThread: Thread started: Android tests 2-10
+2020-01-17 11:41:15,554 INFO o.a.j.t.JMeterThread: Thread started: Android tests 2-32
+2020-01-17 11:41:15,555 INFO o.a.j.t.JMeterThread: Thread started: Android tests 2-15
+2020-01-17 11:41:15,555 INFO o.a.j.t.JMeterThread: Thread started: Android tests 2-55
+2020-01-17 11:41:15,555 INFO o.a.j.t.JMeterThread: Thread finished: Android tests 2-10
+2020-01-17 11:41:15,555 INFO o.a.j.t.JMeterThread: Thread finished: Android tests 2-32
+2020-01-17 11:41:15,555 INFO o.a.j.t.JMeterThread: Thread finished: Android tests 2-15
+2020-01-17 11:41:15,555 INFO o.a.j.t.JMeterThread: Stopping: Android tests 2-98
+2020-01-17 11:41:15,555 WARN o.a.j.t.JMeterThread: Interrupting: Android tests 2-98 sampler: cs_mobile_catalogue_V4_TVShows_Android
+2020-01-17 11:41:15,555 INFO o.a.j.t.JMeterThread: Thread finished: Android tests 2-55
+2020-01-17 11:41:15,559 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-97
+2020-01-17 11:41:15,555 INFO o.a.j.t.JMeterThread: Thread started: Android tests 2-74
+2020-01-17 11:41:15,557 INFO o.a.j.t.JMeterThread: Thread finished: Android tests 2-96
+2020-01-17 11:41:15,557 INFO o.a.j.t.JMeterThread: Thread finished: Android tests 2-98
+2020-01-17 11:41:15,556 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-99
+2020-01-17 11:41:15,556 INFO o.a.j.t.JMeterThread: Stopping: Android tests 2-76
+2020-01-17 11:41:15,561 INFO o.a.j.t.JMeterThread: Stopping: Android tests 2-47
+2020-01-17 11:41:15,561 INFO o.a.j.t.JMeterThread: Stopping: Android tests 2-43
+2020-01-17 11:41:15,561 INFO o.a.j.t.JMeterThread: Thread started: Android tests 2-76
+2020-01-17 11:41:15,561 INFO o.a.j.t.JMeterThread: Stopping: Android tests 2-85
+2020-01-17 11:41:15,561 INFO o.a.j.t.JMeterThread: Thread started: Android tests 2-47
+2020-01-17 11:41:15,561 INFO o.a.j.t.JMeterThread: Stopping: Android tests 2-54
+2020-01-17 11:41:15,561 INFO o.a.j.t.JMeterThread: Thread started: Android tests 2-43
+2020-01-17 11:41:15,561 INFO o.a.j.t.JMeterThread: Stopping: Android tests 2-66
+2020-01-17 11:41:15,561 INFO o.a.j.t.JMeterThread: Stopping: Android tests 2-78
+2020-01-17 11:41:15,561 INFO o.a.j.t.JMeterThread: Stopping: Android tests 2-88
+2020-01-17 11:41:15,561 INFO o.a.j.t.JMeterThread: Thread started: Android tests 2-85
+2020-01-17 11:41:15,561 INFO o.a.j.t.JMeterThread: Stopping: Android tests 2-75
+2020-01-17 11:41:15,561 INFO o.a.j.t.JMeterThread: Stopping: Android tests 2-33
+2020-01-17 11:41:15,561 INFO o.a.j.t.JMeterThread: Stopping: Android tests 2-38
+2020-01-17 11:41:15,561 INFO o.a.j.t.JMeterThread: Thread started: Android tests 2-54
+2020-01-17 11:41:15,562 INFO o.a.j.t.JMeterThread: Stopping: Android tests 2-3
+2020-01-17 11:41:15,562 INFO o.a.j.t.JMeterThread: Stopping: Android tests 2-58
+2020-01-17 11:41:15,562 INFO o.a.j.t.JMeterThread: Thread started: Android tests 2-78
+2020-01-17 11:41:15,562 INFO o.a.j.t.JMeterThread: Stopping: Android tests 2-97
+2020-01-17 11:41:15,562 INFO o.a.j.t.JMeterThread: Stopping: Android tests 2-80
+2020-01-17 11:41:15,562 INFO o.a.j.t.JMeterThread: Stopping: Android tests 2-44
+2020-01-17 11:41:15,562 INFO o.a.j.t.JMeterThread: Thread started: Android tests 2-88
+2020-01-17 11:41:15,562 INFO o.a.j.t.JMeterThread: Stopping: Android tests 2-67
+2020-01-17 11:41:15,562 INFO o.a.j.t.JMeterThread: Thread started: Android tests 2-75
+2020-01-17 11:41:15,562 INFO o.a.j.t.JMeterThread: Thread started: Android tests 2-3
+2020-01-17 11:41:15,561 INFO o.a.j.t.JMeterThread: Thread started: Android tests 2-66
+2020-01-17 11:41:15,562 INFO o.a.j.t.JMeterThread: Thread started: Android tests 2-58
+2020-01-17 11:41:15,562 INFO o.a.j.t.JMeterThread: Thread started: Android tests 2-38
+2020-01-17 11:41:15,562 INFO o.a.j.t.JMeterThread: Thread started: Android tests 2-44
+2020-01-17 11:41:15,562 INFO o.a.j.t.JMeterThread: Thread started: Android tests 2-33
+2020-01-17 11:41:15,562 INFO o.a.j.t.JMeterThread: Stopping: Android tests 2-16
+2020-01-17 11:41:15,562 INFO o.a.j.t.JMeterThread: Thread started: Android tests 2-80
+2020-01-17 11:41:15,563 INFO o.a.j.t.JMeterThread: Stopping: Android tests 2-9
+2020-01-17 11:41:15,563 INFO o.a.j.t.JMeterThread: Stopping: Android tests 2-61
+2020-01-17 11:41:15,563 INFO o.a.j.t.JMeterThread: Thread started: Android tests 2-67
+2020-01-17 11:41:15,563 INFO o.a.j.t.JMeterThread: Stopping: Android tests 2-20
+2020-01-17 11:41:15,563 INFO o.a.j.t.JMeterThread: Thread started: Android tests 2-16
+2020-01-17 11:41:15,563 INFO o.a.j.t.JMeterThread: Stopping: Android tests 2-13
+2020-01-17 11:41:15,563 INFO o.a.j.t.JMeterThread: Stopping: Android tests 2-22
+2020-01-17 11:41:15,563 INFO o.a.j.t.JMeterThread: Thread started: Android tests 2-9
+2020-01-17 11:41:15,563 INFO o.a.j.t.JMeterThread: Stopping: Android tests 2-83
+2020-01-17 11:41:15,563 INFO o.a.j.t.JMeterThread: Thread started: Android tests 2-61
+2020-01-17 11:41:15,563 INFO o.a.j.t.JMeterThread: Thread started: Android tests 2-20
+2020-01-17 11:41:15,563 INFO o.a.j.t.JMeterThread: Stopping: Android tests 2-62
+2020-01-17 11:41:15,563 INFO o.a.j.t.JMeterThread: Stopping: Android tests 2-24
+2020-01-17 11:41:15,563 INFO o.a.j.t.JMeterThread: Thread started: Android tests 2-13
+2020-01-17 11:41:15,563 INFO o.a.j.t.JMeterThread: Stopping: Android tests 2-68
+2020-01-17 11:41:15,563 INFO o.a.j.t.JMeterThread: Thread started: Android tests 2-62
+2020-01-17 11:41:15,563 INFO o.a.j.t.JMeterThread: Stopping: Android tests 2-99
+2020-01-17 11:41:15,563 INFO o.a.j.t.JMeterThread: Thread started: Android tests 2-83
+2020-01-17 11:41:15,563 INFO o.a.j.t.JMeterThread: Thread started: Android tests 2-22
+2020-01-17 11:41:15,563 WARN o.a.j.t.JMeterThread: Interrupting: Android tests 2-99 sampler: cs_mobile_getEditorialsForCatchup_v4_android
+2020-01-17 11:41:15,563 INFO o.a.j.t.JMeterThread: Thread started: Android tests 2-24
+2020-01-17 11:41:15,565 INFO o.a.j.t.JMeterThread: Thread finished: Android tests 2-76
+2020-01-17 11:41:15,565 INFO o.a.j.t.JMeterThread: Thread finished: Android tests 2-99
+2020-01-17 11:41:15,565 INFO o.a.j.t.JMeterThread: Thread finished: Android tests 2-24
+2020-01-17 11:41:15,565 INFO o.a.j.t.JMeterThread: Thread finished: Android tests 2-47
+2020-01-17 11:41:15,565 INFO o.a.j.t.JMeterThread: Thread finished: Android tests 2-43
+2020-01-17 11:41:15,565 INFO o.a.j.t.JMeterThread: Thread finished: Android tests 2-85
+2020-01-17 11:41:15,565 INFO o.a.j.t.JMeterThread: Thread finished: Android tests 2-54
+2020-01-17 11:41:15,565 INFO o.a.j.t.JMeterThread: Thread finished: Android tests 2-78
+2020-01-17 11:41:15,565 INFO o.a.j.t.JMeterThread: Thread finished: Android tests 2-3
+2020-01-17 11:41:15,565 INFO o.a.j.t.JMeterThread: Thread finished: Android tests 2-75
+2020-01-17 11:41:15,565 INFO o.a.j.t.JMeterThread: Thread finished: Android tests 2-88
+2020-01-17 11:41:15,565 INFO o.a.j.t.JMeterThread: Thread finished: Android tests 2-66
+2020-01-17 11:41:15,565 INFO o.a.j.t.JMeterThread: Thread finished: Android tests 2-44
+2020-01-17 11:41:15,565 INFO o.a.j.t.JMeterThread: Thread finished: Android tests 2-58
+2020-01-17 11:41:15,565 INFO o.a.j.t.JMeterThread: Thread finished: Android tests 2-38
+2020-01-17 11:41:15,565 INFO o.a.j.t.JMeterThread: Thread finished: Android tests 2-33
+2020-01-17 11:41:15,565 INFO o.a.j.t.JMeterThread: Thread finished: Android tests 2-80
+2020-01-17 11:41:15,565 INFO o.a.j.t.JMeterThread: Thread finished: Android tests 2-67
+2020-01-17 11:41:15,565 INFO o.a.j.t.JMeterThread: Thread finished: Android tests 2-16
+2020-01-17 11:41:15,565 INFO o.a.j.t.JMeterThread: Thread finished: Android tests 2-61
+2020-01-17 11:41:15,565 INFO o.a.j.t.JMeterThread: Stopping: Web 3-15
+2020-01-17 11:41:15,565 INFO o.a.j.t.JMeterThread: Thread finished: Android tests 2-20
+2020-01-17 11:41:15,567 INFO o.a.j.t.JMeterThread: Stopping: Web 3-27
+2020-01-17 11:41:15,565 INFO o.a.j.t.JMeterThread: Thread finished: Android tests 2-9
+2020-01-17 11:41:15,567 INFO o.a.j.t.JMeterThread: Stopping: Web 3-98
+2020-01-17 11:41:15,567 WARN o.a.j.t.JMeterThread: Interrupting: Web 3-98 sampler: cs_mobile_catalogue_V4_TV_Shows_Sort_Web
+2020-01-17 11:41:15,567 INFO o.a.j.t.JMeterThread: Thread started: Web 3-15
+2020-01-17 11:41:15,565 INFO o.a.j.t.JMeterThread: Thread finished: Android tests 2-13
+2020-01-17 11:41:15,565 INFO o.a.j.t.JMeterThread: Thread finished: Android tests 2-62
+2020-01-17 11:41:15,565 INFO o.a.j.t.JMeterThread: Thread finished: Android tests 2-83
+2020-01-17 11:41:15,565 INFO o.a.j.t.JMeterThread: Thread finished: Android tests 2-22
+2020-01-17 11:41:15,563 INFO o.a.j.t.JMeterThread: Thread started: Android tests 2-68
+2020-01-17 11:41:15,568 INFO o.a.j.t.JMeterThread: Thread finished: Android tests 2-74
+2020-01-17 11:41:15,568 INFO o.a.j.t.JMeterThread: Thread finished: Web 3-15
+2020-01-17 11:41:15,567 INFO o.a.j.t.JMeterThread: Thread started: Web 3-27
+2020-01-17 11:41:15,568 INFO o.a.j.t.JMeterThread: Stopping: Web 3-19
+2020-01-17 11:41:15,569 INFO o.a.j.t.JMeterThread: Thread finished: Android tests 2-68
+2020-01-17 11:41:15,569 INFO o.a.j.t.JMeterThread: Thread finished: Web 3-27
+2020-01-17 11:41:15,569 INFO o.a.j.t.JMeterThread: Stopping: Web 3-7
+2020-01-17 11:41:15,569 INFO o.a.j.t.JMeterThread: Stopping: Web 3-38
+2020-01-17 11:41:15,569 INFO o.a.j.t.JMeterThread: Stopping: Web 3-16
+2020-01-17 11:41:15,569 INFO o.a.j.t.JMeterThread: Stopping: Web 3-45
+2020-01-17 11:41:15,569 INFO o.a.j.t.JMeterThread: Stopping: Web 3-70
+2020-01-17 11:41:15,569 INFO o.a.j.t.JMeterThread: Stopping: Web 3-77
+2020-01-17 11:41:15,569 INFO o.a.j.t.JMeterThread: Thread started: Web 3-7
+2020-01-17 11:41:15,569 INFO o.a.j.t.JMeterThread: Stopping: Web 3-41
+2020-01-17 11:41:15,569 INFO o.a.j.t.JMeterThread: Thread started: Web 3-38
+2020-01-17 11:41:15,570 INFO o.a.j.t.JMeterThread: Stopping: Web 3-44
+2020-01-17 11:41:15,569 INFO o.a.j.t.JMeterThread: Thread started: Web 3-16
+2020-01-17 11:41:15,570 INFO o.a.j.t.JMeterThread: Stopping: Web 3-57
+2020-01-17 11:41:15,570 INFO o.a.j.t.JMeterThread: Thread started: Web 3-45
+2020-01-17 11:41:15,570 INFO o.a.j.t.JMeterThread: Stopping: Web 3-90
+2020-01-17 11:41:15,570 INFO o.a.j.t.JMeterThread: Thread finished: Web 3-16
+2020-01-17 11:41:15,570 INFO o.a.j.t.JMeterThread: Stopping: Web 3-28
+2020-01-17 11:41:15,570 INFO o.a.j.t.JMeterThread: Thread finished: Web 3-45
+2020-01-17 11:41:15,570 INFO o.a.j.t.JMeterThread: Stopping: Web 3-89
+2020-01-17 11:41:15,570 INFO o.a.j.t.JMeterThread: Thread finished: Web 3-38
+2020-01-17 11:41:15,569 INFO o.a.j.t.JMeterThread: Thread started: Web 3-19
+2020-01-17 11:41:15,570 INFO o.a.j.t.JMeterThread: Thread started: Web 3-70
+2020-01-17 11:41:15,570 INFO o.a.j.t.JMeterThread: Thread started: Web 3-77
+2020-01-17 11:41:15,570 INFO o.a.j.t.JMeterThread: Thread finished: Web 3-7
+2020-01-17 11:41:15,570 INFO o.a.j.t.JMeterThread: Thread started: Web 3-41
+2020-01-17 11:41:15,570 INFO o.a.j.t.JMeterThread: Thread finished: Web 3-70
+2020-01-17 11:41:15,570 INFO o.a.j.t.JMeterThread: Thread finished: Web 3-77
+2020-01-17 11:41:15,570 INFO o.a.j.t.JMeterThread: Thread finished: Web 3-41
+2020-01-17 11:41:15,570 INFO o.a.j.t.JMeterThread: Thread started: Web 3-44
+2020-01-17 11:41:15,570 INFO o.a.j.t.JMeterThread: Thread started: Web 3-57
+2020-01-17 11:41:15,571 INFO o.a.j.t.JMeterThread: Thread finished: Web 3-44
+2020-01-17 11:41:15,571 INFO o.a.j.t.JMeterThread: Thread finished: Web 3-57
+2020-01-17 11:41:15,571 INFO o.a.j.t.JMeterThread: Stopping: Web 3-85
+2020-01-17 11:41:15,571 INFO o.a.j.t.JMeterThread: Thread started: Web 3-28
+2020-01-17 11:41:15,571 INFO o.a.j.t.JMeterThread: Stopping: Web 3-72
+2020-01-17 11:41:15,571 INFO o.a.j.t.JMeterThread: Thread started: Web 3-89
+2020-01-17 11:41:15,571 INFO o.a.j.t.JMeterThread: Thread started: Web 3-90
+2020-01-17 11:41:15,571 INFO o.a.j.t.JMeterThread: Thread finished: Web 3-89
+2020-01-17 11:41:15,571 INFO o.a.j.t.JMeterThread: Stopping: Web 3-6
+2020-01-17 11:41:15,571 INFO o.a.j.t.JMeterThread: Thread started: Web 3-85
+2020-01-17 11:41:15,571 INFO o.a.j.t.JMeterThread: Thread finished: Web 3-90
+2020-01-17 11:41:15,571 INFO o.a.j.t.JMeterThread: Thread finished: Web 3-28
+2020-01-17 11:41:15,571 INFO o.a.j.t.JMeterThread: Stopping: Web 3-91
+2020-01-17 11:41:15,571 INFO o.a.j.t.JMeterThread: Thread finished: Web 3-19
+2020-01-17 11:41:15,572 INFO o.a.j.t.JMeterThread: Stopping: Web 3-86
+2020-01-17 11:41:15,572 INFO o.a.j.t.JMeterThread: Stopping: Web 3-66
+2020-01-17 11:41:15,572 INFO o.a.j.t.JMeterThread: Thread started: Web 3-6
+2020-01-17 11:41:15,572 INFO o.a.j.t.JMeterThread: Thread finished: Web 3-85
+2020-01-17 11:41:15,571 INFO o.a.j.t.JMeterThread: Thread started: Web 3-72
+2020-01-17 11:41:15,572 INFO o.a.j.t.JMeterThread: Thread started: Web 3-91
+2020-01-17 11:41:15,572 INFO o.a.j.t.JMeterThread: Thread finished: Web 3-6
+2020-01-17 11:41:15,572 INFO o.a.j.t.JMeterThread: Thread started: Web 3-66
+2020-01-17 11:41:15,572 INFO o.a.j.t.JMeterThread: Thread finished: Web 3-72
+2020-01-17 11:41:15,572 INFO o.a.j.t.JMeterThread: Thread finished: Web 3-91
+2020-01-17 11:41:15,572 INFO o.a.j.t.JMeterThread: Thread started: Web 3-86
+2020-01-17 11:41:15,572 INFO o.a.j.t.JMeterThread: Stopping: Web 3-22
+2020-01-17 11:41:15,572 INFO o.a.j.t.JMeterThread: Thread finished: Web 3-66
+2020-01-17 11:41:15,572 INFO o.a.j.t.JMeterThread: Thread finished: Web 3-86
+2020-01-17 11:41:15,572 INFO o.a.j.t.JMeterThread: Stopping: Web 3-76
+2020-01-17 11:41:15,572 INFO o.a.j.t.JMeterThread: Stopping: Web 3-12
+2020-01-17 11:41:15,572 INFO o.a.j.t.JMeterThread: Thread started: Web 3-22
+2020-01-17 11:41:15,572 INFO o.a.j.t.JMeterThread: Stopping: Web 3-3
+2020-01-17 11:41:15,572 INFO o.a.j.t.JMeterThread: Thread started: Web 3-76
+2020-01-17 11:41:15,572 INFO o.a.j.t.JMeterThread: Stopping: Web 3-40
+2020-01-17 11:41:15,572 INFO o.a.j.t.JMeterThread: Thread started: Web 3-12
+2020-01-17 11:41:15,573 INFO o.a.j.t.JMeterThread: Thread finished: Web 3-22
+2020-01-17 11:41:15,573 INFO o.a.j.t.JMeterThread: Thread finished: Web 3-12
+2020-01-17 11:41:15,573 INFO o.a.j.t.JMeterThread: Stopping: Web 3-69
+2020-01-17 11:41:15,573 INFO o.a.j.t.JMeterThread: Thread started: Web 3-3
+2020-01-17 11:41:15,573 INFO o.a.j.t.JMeterThread: Thread started: Web 3-40
+2020-01-17 11:41:15,573 INFO o.a.j.t.JMeterThread: Thread finished: Web 3-76
+2020-01-17 11:41:15,573 INFO o.a.j.t.JMeterThread: Stopping: Web 3-39
+2020-01-17 11:41:15,573 INFO o.a.j.t.JMeterThread: Thread finished: Web 3-3
+2020-01-17 11:41:15,573 INFO o.a.j.t.JMeterThread: Thread started: Web 3-69
+2020-01-17 11:41:15,573 INFO o.a.j.t.JMeterThread: Thread finished: Web 3-40
+2020-01-17 11:41:15,573 INFO o.a.j.t.JMeterThread: Stopping: Web 3-56
+2020-01-17 11:41:15,573 INFO o.a.j.t.JMeterThread: Thread finished: Web 3-69
+2020-01-17 11:41:15,573 INFO o.a.j.t.JMeterThread: Thread started: Web 3-39
+2020-01-17 11:41:15,573 INFO o.a.j.t.JMeterThread: Stopping: Web 3-84
+2020-01-17 11:41:15,573 INFO o.a.j.t.JMeterThread: Stopping: Web 3-81
+2020-01-17 11:41:15,573 INFO o.a.j.t.JMeterThread: Thread started: Web 3-56
+2020-01-17 11:41:15,573 INFO o.a.j.t.JMeterThread: Thread finished: Web 3-39
+2020-01-17 11:41:15,573 INFO o.a.j.t.JMeterThread: Thread started: Web 3-84
+2020-01-17 11:41:15,573 INFO o.a.j.t.JMeterThread: Thread started: Web 3-81
+2020-01-17 11:41:15,574 INFO o.a.j.t.JMeterThread: Thread finished: Web 3-56
+2020-01-17 11:41:15,574 INFO o.a.j.t.JMeterThread: Thread finished: Web 3-84
+2020-01-17 11:41:15,574 INFO o.a.j.t.JMeterThread: Thread finished: Web 3-81
+2020-01-17 11:41:15,574 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-100
+2020-01-17 11:41:15,574 INFO o.a.j.t.JMeterThread: Thread finished: Android tests 2-97
+2020-01-17 11:41:15,574 INFO o.a.j.t.JMeterThread: Thread finished: Android tests 2-100
+2020-01-17 11:41:15,574 INFO o.a.j.t.JMeterThread: Stopping: Web 3-42
+2020-01-17 11:41:15,574 INFO o.a.j.t.JMeterThread: Thread finished: Web 3-98
+2020-01-17 11:41:15,574 INFO o.a.j.t.JMeterThread: Stopping: Web 3-82
+2020-01-17 11:41:15,575 INFO o.a.j.t.JMeterThread: Stopping: Web 3-24
+2020-01-17 11:41:15,575 INFO o.a.j.t.JMeterThread: Thread started: Web 3-42
+2020-01-17 11:41:15,575 INFO o.a.j.t.JMeterThread: Stopping: Web 3-61
+2020-01-17 11:41:15,575 INFO o.a.j.t.JMeterThread: Thread started: Web 3-82
+2020-01-17 11:41:15,575 INFO o.a.j.t.JMeterThread: Thread started: Web 3-24
+2020-01-17 11:41:15,575 INFO o.a.j.t.JMeterThread: Thread finished: Web 3-42
+2020-01-17 11:41:15,575 INFO o.a.j.t.JMeterThread: Thread finished: Web 3-82
+2020-01-17 11:41:15,575 INFO o.a.j.t.JMeterThread: Thread finished: Web 3-24
+2020-01-17 11:41:15,575 INFO o.a.j.t.JMeterThread: Thread started: Web 3-61
+2020-01-17 11:41:15,575 INFO o.a.j.t.JMeterThread: Stopping: Web 3-21
+2020-01-17 11:41:15,576 INFO o.a.j.t.JMeterThread: Thread finished: Web 3-61
+2020-01-17 11:41:15,576 INFO o.a.j.t.JMeterThread: Stopping: Web 3-46
+2020-01-17 11:41:15,576 INFO o.a.j.t.JMeterThread: Stopping: Web 3-52
+2020-01-17 11:41:15,576 INFO o.a.j.t.JMeterThread: Thread started: Web 3-21
+2020-01-17 11:41:15,576 INFO o.a.j.t.JMeterThread: Thread started: Web 3-46
+2020-01-17 11:41:15,576 INFO o.a.j.t.JMeterThread: Thread finished: Web 3-21
+2020-01-17 11:41:15,576 INFO o.a.j.t.JMeterThread: Thread finished: Web 3-46
+2020-01-17 11:41:15,576 INFO o.a.j.t.JMeterThread: Stopping: Web 3-78
+2020-01-17 11:41:15,576 INFO o.a.j.t.JMeterThread: Thread started: Web 3-52
+2020-01-17 11:41:15,577 INFO o.a.j.t.JMeterThread: Stopping: Web 3-14
+2020-01-17 11:41:15,577 INFO o.a.j.t.JMeterThread: Thread finished: Web 3-52
+2020-01-17 11:41:15,577 INFO o.a.j.t.JMeterThread: Thread started: Web 3-78
+2020-01-17 11:41:15,577 INFO o.a.j.t.JMeterThread: Thread started: Web 3-14
+2020-01-17 11:41:15,577 INFO o.a.j.t.JMeterThread: Stopping: Web 3-63
+2020-01-17 11:41:15,577 INFO o.a.j.t.JMeterThread: Thread finished: Web 3-78
+2020-01-17 11:41:15,577 INFO o.a.j.t.JMeterThread: Thread finished: Web 3-14
+2020-01-17 11:41:15,577 INFO o.a.j.t.JMeterThread: Stopping: Web 3-35
+2020-01-17 11:41:15,577 INFO o.a.j.t.JMeterThread: Thread started: Web 3-63
+2020-01-17 11:41:15,577 INFO o.a.j.t.JMeterThread: Thread finished: Web 3-63
+2020-01-17 11:41:15,577 INFO o.a.j.t.JMeterThread: Thread started: Web 3-35
+2020-01-17 11:41:15,578 INFO o.a.j.t.JMeterThread: Thread finished: Web 3-35
+2020-01-17 11:41:15,578 INFO o.a.j.t.JMeterThread: Stopping: Web 3-11
+2020-01-17 11:41:15,578 INFO o.a.j.t.JMeterThread: Stopping: Web 3-23
+2020-01-17 11:41:15,578 INFO o.a.j.t.JMeterThread: Stopping: Web 3-55
+2020-01-17 11:41:15,578 INFO o.a.j.t.JMeterThread: Thread started: Web 3-11
+2020-01-17 11:41:15,578 INFO o.a.j.t.JMeterThread: Stopping: Web 3-1
+2020-01-17 11:41:15,578 INFO o.a.j.t.JMeterThread: Thread started: Web 3-23
+2020-01-17 11:41:15,578 INFO o.a.j.t.JMeterThread: Thread finished: Web 3-11
+2020-01-17 11:41:15,578 INFO o.a.j.t.JMeterThread: Thread started: Web 3-55
+2020-01-17 11:41:15,579 INFO o.a.j.t.JMeterThread: Thread finished: Web 3-23
+2020-01-17 11:41:15,579 INFO o.a.j.t.JMeterThread: Thread finished: Web 3-55
+2020-01-17 11:41:15,579 INFO o.a.j.t.JMeterThread: Thread started: Web 3-1
+2020-01-17 11:41:15,579 INFO o.a.j.t.JMeterThread: Stopping: Web 3-37
+2020-01-17 11:41:15,579 INFO o.a.j.t.JMeterThread: Thread finished: Web 3-1
+2020-01-17 11:41:15,580 INFO o.a.j.t.JMeterThread: Thread started: Web 3-37
+2020-01-17 11:41:15,580 INFO o.a.j.t.JMeterThread: Thread finished: Web 3-37
+2020-01-17 11:41:15,580 INFO o.a.j.t.JMeterThread: Stopping: Web 3-9
+2020-01-17 11:41:15,580 INFO o.a.j.t.JMeterThread: Thread started: Web 3-9
+2020-01-17 11:41:15,581 INFO o.a.j.t.JMeterThread: Thread finished: Web 3-9
+2020-01-17 11:41:15,581 INFO o.a.j.t.JMeterThread: Stopping: Web 3-47
+2020-01-17 11:41:15,581 INFO o.a.j.t.JMeterThread: Stopping: Web 3-100
+2020-01-17 11:41:15,581 WARN o.a.j.t.JMeterThread: Interrupting: Web 3-100 sampler: cs_mobile_catalogue_V4_Movies_Web
+2020-01-17 11:41:15,583 INFO o.a.j.t.JMeterThread: Stopping: Web 3-49
+2020-01-17 11:41:15,581 INFO o.a.j.t.JMeterThread: Thread started: Web 3-47
+2020-01-17 11:41:15,583 INFO o.a.j.t.JMeterThread: Thread finished: Web 3-100
+2020-01-17 11:41:15,583 INFO o.a.j.t.JMeterThread: Thread finished: Web 3-47
+2020-01-17 11:41:15,583 INFO o.a.j.t.JMeterThread: Stopping: Web 3-4
+2020-01-17 11:41:15,583 INFO o.a.j.t.JMeterThread: Stopping: Web 3-64
+2020-01-17 11:41:15,583 INFO o.a.j.t.JMeterThread: Thread started: Web 3-49
+2020-01-17 11:41:15,583 INFO o.a.j.t.JMeterThread: Thread started: Web 3-4
+2020-01-17 11:41:15,584 INFO o.a.j.t.JMeterThread: Stopping: Web 3-80
+2020-01-17 11:41:15,584 INFO o.a.j.t.JMeterThread: Thread started: Web 3-64
+2020-01-17 11:41:15,584 INFO o.a.j.t.JMeterThread: Thread finished: Web 3-49
+2020-01-17 11:41:15,584 INFO o.a.j.t.JMeterThread: Thread finished: Web 3-4
+2020-01-17 11:41:15,584 INFO o.a.j.t.JMeterThread: Thread finished: Web 3-64
+2020-01-17 11:41:15,584 INFO o.a.j.t.JMeterThread: Thread started: Web 3-80
+2020-01-17 11:41:15,584 INFO o.a.j.t.JMeterThread: Stopping: Web 3-53
+2020-01-17 11:41:15,584 INFO o.a.j.t.JMeterThread: Thread finished: Web 3-80
+2020-01-17 11:41:15,584 INFO o.a.j.t.JMeterThread: Stopping: Web 3-17
+2020-01-17 11:41:15,584 INFO o.a.j.t.JMeterThread: Thread started: Web 3-53
+2020-01-17 11:41:15,584 INFO o.a.j.t.JMeterThread: Thread started: Web 3-17
+2020-01-17 11:41:15,584 INFO o.a.j.t.JMeterThread: Thread finished: Web 3-53
+2020-01-17 11:41:15,585 INFO o.a.j.t.JMeterThread: Thread finished: Web 3-17
+2020-01-17 11:41:15,585 INFO o.a.j.t.JMeterThread: Stopping: Web 3-58
+2020-01-17 11:41:15,585 INFO o.a.j.t.JMeterThread: Stopping: Web 3-50
+2020-01-17 11:41:15,585 INFO o.a.j.t.JMeterThread: Thread started: Web 3-58
+2020-01-17 11:41:15,585 INFO o.a.j.t.JMeterThread: Stopping: Web 3-71
+2020-01-17 11:41:15,585 INFO o.a.j.t.JMeterThread: Thread started: Web 3-50
+2020-01-17 11:41:15,585 INFO o.a.j.t.JMeterThread: Thread finished: Web 3-58
+2020-01-17 11:41:15,585 INFO o.a.j.t.JMeterThread: Thread started: Web 3-71
+2020-01-17 11:41:15,585 INFO o.a.j.t.JMeterThread: Thread finished: Web 3-50
+2020-01-17 11:41:15,585 INFO o.a.j.t.JMeterThread: Thread finished: Web 3-71
+2020-01-17 11:41:15,585 INFO o.a.j.t.JMeterThread: Stopping: Web 3-92
+2020-01-17 11:41:15,586 INFO o.a.j.t.JMeterThread: Stopping: Web 3-8
+2020-01-17 11:41:15,586 INFO o.a.j.t.JMeterThread: Thread started: Web 3-92
+2020-01-17 11:41:15,586 INFO o.a.j.t.JMeterThread: Stopping: Web 3-67
+2020-01-17 11:41:15,586 INFO o.a.j.t.JMeterThread: Thread finished: Web 3-92
+2020-01-17 11:41:15,586 INFO o.a.j.t.JMeterThread: Thread started: Web 3-8
+2020-01-17 11:41:15,586 INFO o.a.j.t.JMeterThread: Thread started: Web 3-67
+2020-01-17 11:41:15,586 INFO o.a.j.t.JMeterThread: Thread finished: Web 3-8
+2020-01-17 11:41:15,586 INFO o.a.j.t.JMeterThread: Stopping: Web 3-30
+2020-01-17 11:41:15,586 INFO o.a.j.t.JMeterThread: Stopping: Web 3-48
+2020-01-17 11:41:15,586 INFO o.a.j.t.JMeterThread: Thread finished: Web 3-67
+2020-01-17 11:41:15,586 INFO o.a.j.t.JMeterThread: Thread started: Web 3-30
+2020-01-17 11:41:15,587 INFO o.a.j.t.JMeterThread: Stopping: Web 3-74
+2020-01-17 11:41:15,587 INFO o.a.j.t.JMeterThread: Thread finished: Web 3-30
+2020-01-17 11:41:15,587 INFO o.a.j.t.JMeterThread: Thread started: Web 3-48
+2020-01-17 11:41:15,587 INFO o.a.j.t.JMeterThread: Stopping: Web 3-34
+2020-01-17 11:41:15,587 INFO o.a.j.t.JMeterThread: Thread started: Web 3-74
+2020-01-17 11:41:15,587 INFO o.a.j.t.JMeterThread: Thread finished: Web 3-48
+2020-01-17 11:41:15,587 INFO o.a.j.t.JMeterThread: Thread finished: Web 3-74
+2020-01-17 11:41:15,587 INFO o.a.j.t.JMeterThread: Thread started: Web 3-34
+2020-01-17 11:41:15,587 INFO o.a.j.t.JMeterThread: Stopping: Web 3-26
+2020-01-17 11:41:15,587 INFO o.a.j.t.JMeterThread: Thread finished: Web 3-34
+2020-01-17 11:41:15,587 INFO o.a.j.t.JMeterThread: Thread started: Web 3-26
+2020-01-17 11:41:15,587 INFO o.a.j.t.JMeterThread: Stopping: Web 3-31
+2020-01-17 11:41:15,587 INFO o.a.j.t.JMeterThread: Stopping: Web 3-87
+2020-01-17 11:41:15,587 INFO o.a.j.t.JMeterThread: Thread finished: Web 3-26
+2020-01-17 11:41:15,587 INFO o.a.j.t.JMeterThread: Thread started: Web 3-31
+2020-01-17 11:41:15,588 INFO o.a.j.t.JMeterThread: Thread started: Web 3-87
+2020-01-17 11:41:15,588 INFO o.a.j.t.JMeterThread: Stopping: Web 3-62
+2020-01-17 11:41:15,588 INFO o.a.j.t.JMeterThread: Thread finished: Web 3-31
+2020-01-17 11:41:15,588 INFO o.a.j.t.JMeterThread: Thread finished: Web 3-87
+2020-01-17 11:41:15,588 INFO o.a.j.t.JMeterThread: Stopping: Web 3-68
+2020-01-17 11:41:15,588 INFO o.a.j.t.JMeterThread: Thread started: Web 3-62
+2020-01-17 11:41:15,588 INFO o.a.j.t.JMeterThread: Stopping: Web 3-95
+2020-01-17 11:41:15,588 INFO o.a.j.t.JMeterThread: Thread finished: Web 3-62
+2020-01-17 11:41:15,588 INFO o.a.j.t.JMeterThread: Thread started: Web 3-68
+2020-01-17 11:41:15,588 INFO o.a.j.t.JMeterThread: Thread started: Web 3-95
+2020-01-17 11:41:15,588 INFO o.a.j.t.JMeterThread: Stopping: Web 3-2
+2020-01-17 11:41:15,588 INFO o.a.j.t.JMeterThread: Thread finished: Web 3-68
+2020-01-17 11:41:15,588 INFO o.a.j.t.JMeterThread: Thread finished: Web 3-95
+2020-01-17 11:41:15,588 INFO o.a.j.t.JMeterThread: Stopping: Web 3-93
+2020-01-17 11:41:15,588 INFO o.a.j.t.JMeterThread: Thread started: Web 3-2
+2020-01-17 11:41:15,589 INFO o.a.j.t.JMeterThread: Stopping: Web 3-88
+2020-01-17 11:41:15,589 INFO o.a.j.t.JMeterThread: Thread started: Web 3-93
+2020-01-17 11:41:15,589 INFO o.a.j.t.JMeterThread: Thread finished: Web 3-2
+2020-01-17 11:41:15,589 INFO o.a.j.t.JMeterThread: Thread started: Web 3-88
+2020-01-17 11:41:15,589 INFO o.a.j.t.JMeterThread: Thread finished: Web 3-93
+2020-01-17 11:41:15,589 INFO o.a.j.t.JMeterThread: Stopping: Web 3-75
+2020-01-17 11:41:15,589 INFO o.a.j.t.JMeterThread: Thread finished: Web 3-88
+2020-01-17 11:41:15,589 INFO o.a.j.t.JMeterThread: Thread started: Web 3-75
+2020-01-17 11:41:15,589 INFO o.a.j.t.JMeterThread: Stopping: Web 3-25
+2020-01-17 11:41:15,589 INFO o.a.j.t.JMeterThread: Thread finished: Web 3-75
+2020-01-17 11:41:15,589 INFO o.a.j.t.JMeterThread: Thread started: Web 3-25
+2020-01-17 11:41:15,589 INFO o.a.j.t.JMeterThread: Stopping: Web 3-18
+2020-01-17 11:41:15,590 INFO o.a.j.t.JMeterThread: Stopping: Web 3-59
+2020-01-17 11:41:15,590 INFO o.a.j.t.JMeterThread: Thread finished: Web 3-25
+2020-01-17 11:41:15,590 INFO o.a.j.t.JMeterThread: Thread started: Web 3-18
+2020-01-17 11:41:15,590 INFO o.a.j.t.JMeterThread: Stopping: Web 3-20
+2020-01-17 11:41:15,590 INFO o.a.j.t.JMeterThread: Thread started: Web 3-59
+2020-01-17 11:41:15,590 INFO o.a.j.t.JMeterThread: Thread finished: Web 3-18
+2020-01-17 11:41:15,590 INFO o.a.j.t.JMeterThread: Thread finished: Web 3-59
+2020-01-17 11:41:15,590 INFO o.a.j.t.JMeterThread: Thread started: Web 3-20
+2020-01-17 11:41:15,590 INFO o.a.j.t.JMeterThread: Thread finished: Web 3-20
+2020-01-17 11:41:15,590 INFO o.a.j.t.JMeterThread: Stopping: Web 3-33
+2020-01-17 11:41:15,590 INFO o.a.j.t.JMeterThread: Stopping: Web 3-65
+2020-01-17 11:41:15,590 INFO o.a.j.t.JMeterThread: Thread started: Web 3-33
+2020-01-17 11:41:15,591 INFO o.a.j.t.JMeterThread: Thread started: Web 3-65
+2020-01-17 11:41:15,591 INFO o.a.j.t.JMeterThread: Thread finished: Web 3-33
+2020-01-17 11:41:15,591 INFO o.a.j.t.JMeterThread: Thread finished: Web 3-65
+2020-01-17 11:41:15,591 INFO o.a.j.t.JMeterThread: Stopping: Web 3-29
+2020-01-17 11:41:15,591 INFO o.a.j.t.JMeterThread: Thread started: Web 3-29
+2020-01-17 11:41:15,591 INFO o.a.j.t.JMeterThread: Thread finished: Web 3-29
+2020-01-17 11:41:15,591 INFO o.a.j.t.JMeterThread: Stopping: Web 3-60
+2020-01-17 11:41:15,592 INFO o.a.j.t.JMeterThread: Stopping: Web 3-73
+2020-01-17 11:41:15,592 INFO o.a.j.t.JMeterThread: Thread started: Web 3-60
+2020-01-17 11:41:15,592 INFO o.a.j.t.JMeterThread: Thread finished: Web 3-60
+2020-01-17 11:41:15,592 INFO o.a.j.t.JMeterThread: Thread started: Web 3-73
+2020-01-17 11:41:15,592 INFO o.a.j.t.JMeterThread: Thread finished: Web 3-73
+2020-01-17 11:41:15,593 INFO o.a.j.t.JMeterThread: Stopping: Web 3-5
+2020-01-17 11:41:15,593 INFO o.a.j.t.JMeterThread: Thread started: Web 3-5
+2020-01-17 11:41:15,593 INFO o.a.j.t.JMeterThread: Thread finished: Web 3-5
+2020-01-17 11:41:15,594 INFO o.a.j.t.JMeterThread: Stopping: Web 3-96
+2020-01-17 11:41:15,594 WARN o.a.j.t.JMeterThread: Interrupting: Web 3-96 sampler: cs_mobile_getEditorialsForCatchup_v4_WEB
+2020-01-17 11:41:15,594 INFO o.a.j.t.JMeterThread: Stopping: Web 3-79
+2020-01-17 11:41:15,594 INFO o.a.j.t.JMeterThread: Stopping: Web 3-94
+2020-01-17 11:41:15,594 INFO o.a.j.t.JMeterThread: Thread started: Web 3-79
+2020-01-17 11:41:15,595 INFO o.a.j.t.JMeterThread: Thread finished: Web 3-79
+2020-01-17 11:41:15,594 INFO o.a.j.t.JMeterThread: Thread started: Web 3-94
+2020-01-17 11:41:15,595 INFO o.a.j.t.JMeterThread: Stopping: Web 3-83
+2020-01-17 11:41:15,595 INFO o.a.j.t.JMeterThread: Thread finished: Web 3-94
+2020-01-17 11:41:15,595 INFO o.a.j.t.JMeterThread: Stopping: Web 3-99
+2020-01-17 11:41:15,595 INFO o.a.j.t.JMeterThread: Thread started: Web 3-83
+2020-01-17 11:41:15,595 WARN o.a.j.t.JMeterThread: Interrupting: Web 3-99 sampler: cs_mobile_getStreamableChannelsByGenre
+2020-01-17 11:41:15,596 INFO o.a.j.t.JMeterThread: Stopping: Web 3-43
+2020-01-17 11:41:15,596 INFO o.a.j.t.JMeterThread: Thread started: Web 3-43
+2020-01-17 11:41:15,597 INFO o.a.j.t.JMeterThread: Thread finished: Web 3-99
+2020-01-17 11:41:15,597 INFO o.a.j.t.JMeterThread: Thread finished: Web 3-43
+2020-01-17 11:41:15,597 INFO o.a.j.t.JMeterThread: Stopping: Web 3-36
+2020-01-17 11:41:15,597 INFO o.a.j.t.JMeterThread: Stopping: Web 3-10
+2020-01-17 11:41:15,597 INFO o.a.j.t.JMeterThread: Thread started: Web 3-36
+2020-01-17 11:41:15,597 INFO o.a.j.t.JMeterThread: Thread started: Web 3-10
+2020-01-17 11:41:15,597 INFO o.a.j.t.JMeterThread: Thread finished: Web 3-36
+2020-01-17 11:41:15,597 INFO o.a.j.t.JMeterThread: Thread finished: Web 3-10
+2020-01-17 11:41:15,597 INFO o.a.j.t.JMeterThread: Stopping: Web 3-51
+2020-01-17 11:41:15,597 INFO o.a.j.t.JMeterThread: Stopping: Web 3-97
+2020-01-17 11:41:15,598 WARN o.a.j.t.JMeterThread: Interrupting: Web 3-97 sampler: cs_mobile_catalogue_V4_TV_Shows_Sort_Web
+2020-01-17 11:41:15,597 INFO o.a.j.t.JMeterThread: Thread started: Web 3-51
+2020-01-17 11:41:15,598 INFO o.a.j.t.JMeterThread: Stopping: Web 3-32
+2020-01-17 11:41:15,598 INFO o.a.j.t.JMeterThread: Stopping: Web 3-54
+2020-01-17 11:41:15,598 INFO o.a.j.t.JMeterThread: Thread started: Web 3-32
+2020-01-17 11:41:15,598 INFO o.a.j.t.JMeterThread: Thread finished: Web 3-32
+2020-01-17 11:41:15,599 INFO o.a.j.t.JMeterThread: Thread finished: Web 3-97
+2020-01-17 11:41:15,599 INFO o.a.j.t.JMeterThread: Thread started: Web 3-54
+2020-01-17 11:41:15,599 INFO o.a.j.t.JMeterThread: Stopping: Web 3-13
+2020-01-17 11:41:15,599 INFO o.a.j.t.JMeterThread: Thread finished: Web 3-96
+2020-01-17 11:41:15,599 INFO o.a.j.t.JMeterThread: Thread finished: Web 3-54
+2020-01-17 11:41:15,599 INFO o.a.j.t.JMeterThread: Thread started: Web 3-13
+2020-01-17 11:41:15,599 INFO o.a.j.t.JMeterThread: Thread finished: Web 3-13
+2020-01-17 11:41:15,600 INFO o.a.j.t.JMeterThread: Thread finished: Web 3-83
+2020-01-17 11:41:15,600 INFO o.a.j.t.JMeterThread: Thread finished: Web 3-51
+2020-01-17 11:41:15,600 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2020-01-17 11:41:15,600 INFO o.a.j.s.FileServer: Close: sessionIds.csv
+2020-01-17 11:41:15,608 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
